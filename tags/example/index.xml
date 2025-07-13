@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Example on Adrian Hernandez Vega</title>
+    <link>https://cochleoid.github.io/tags/example/</link>
+    <description>Recent content in Example on Adrian Hernandez Vega</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Adrian</copyright>
+    <lastBuildDate>Sat, 12 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/tags/example/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Introduction to Combinatorics</title>
+      <link>https://cochleoid.github.io/math/1752287146717-introduction-to-combinatorics/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/math/1752287146717-introduction-to-combinatorics/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://cochleoid.github.io/math/1752287146717-introduction-to-combinatorics/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

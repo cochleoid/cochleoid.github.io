@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides on Adrian Hernandez Vega</title>
+    <link>https://cochleoid.github.io/guides/</link>
+    <description>Recent content in Guides on Adrian Hernandez Vega</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Adrian</copyright>
+    <lastBuildDate>Fri, 11 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/guides/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Beginner’s Guide to a Polite E-mail</title>
+      <link>https://cochleoid.github.io/guides/1752288356608-beginners-guide-to-a-polite-e-mail/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/guides/1752288356608-beginners-guide-to-a-polite-e-mail/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://cochleoid.github.io/guides/1752288356608-beginners-guide-to-a-polite-e-mail/featured.png" />
+    </item>
+    
+    <item>
+      <title>Adrian&#39;s Step by Step Guide on PCPS Dual Enrollment</title>
+      <link>https://cochleoid.github.io/guides/1752265154342-adrians-step-by-step-guide-on-pcps-dual-enrollment/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/guides/1752265154342-adrians-step-by-step-guide-on-pcps-dual-enrollment/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://cochleoid.github.io/guides/1752265154342-adrians-step-by-step-guide-on-pcps-dual-enrollment/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
