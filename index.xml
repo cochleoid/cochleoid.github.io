@@ -2,119 +2,119 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adrian Hernandez Vega</title>
-    <link>https://cochleoid.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Adrian Hernandez Vega</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Adrian</copyright>
-    <lastBuildDate>Sun, 13 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Summing Vectors like Gauss</title>
-      <link>https://cochleoid.github.io/math/gaussvector/</link>
+      <link>http://localhost:1313/math/gaussvector/</link>
       <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/gaussvector/</guid>
+      <guid>http://localhost:1313/math/gaussvector/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Representing Polygons through the Roots of Unity</title>
-      <link>https://cochleoid.github.io/projects/1752307880980-generating-polygons-and-polyhedra-with-the-roots-of-unity/</link>
+      <link>http://localhost:1313/projects/1752307880980-generating-polygons-and-polyhedra-with-the-roots-of-unity/</link>
       <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/projects/1752307880980-generating-polygons-and-polyhedra-with-the-roots-of-unity/</guid>
+      <guid>http://localhost:1313/projects/1752307880980-generating-polygons-and-polyhedra-with-the-roots-of-unity/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Basic Exponential Functions</title>
-      <link>https://cochleoid.github.io/math/basicexponentials/</link>
+      <link>http://localhost:1313/math/basicexponentials/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/basicexponentials/</guid>
+      <guid>http://localhost:1313/math/basicexponentials/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Beginner’s Guide to a Polite E-mail</title>
-      <link>https://cochleoid.github.io/guides/1752288356608-beginners-guide-to-a-polite-e-mail/</link>
+      <link>http://localhost:1313/guides/1752288356608-beginners-guide-to-a-polite-e-mail/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/guides/1752288356608-beginners-guide-to-a-polite-e-mail/</guid>
+      <guid>http://localhost:1313/guides/1752288356608-beginners-guide-to-a-polite-e-mail/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Divisor Arithmetic</title>
-      <link>https://cochleoid.github.io/math/divisorarithmetic/divisorarithmetic/</link>
+      <link>http://localhost:1313/math/divisorarithmetic/divisorarithmetic/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/divisorarithmetic/divisorarithmetic/</guid>
+      <guid>http://localhost:1313/math/divisorarithmetic/divisorarithmetic/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Finding Elementary Inverse Functions</title>
-      <link>https://cochleoid.github.io/math/introinverses/</link>
+      <link>http://localhost:1313/math/introinverses/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/introinverses/</guid>
+      <guid>http://localhost:1313/math/introinverses/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Introduction to the Asymptotes of a Rational Function</title>
-      <link>https://cochleoid.github.io/math/rationalasymptotes/</link>
+      <link>http://localhost:1313/math/rationalasymptotes/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/rationalasymptotes/</guid>
+      <guid>http://localhost:1313/math/rationalasymptotes/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>My First Science Fair: Acidity and Temperature</title>
-      <link>https://cochleoid.github.io/projects/1752289117740-my-first-science-fair-acidity-and-temperature/</link>
+      <link>http://localhost:1313/projects/1752289117740-my-first-science-fair-acidity-and-temperature/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/projects/1752289117740-my-first-science-fair-acidity-and-temperature/</guid>
+      <guid>http://localhost:1313/projects/1752289117740-my-first-science-fair-acidity-and-temperature/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Some Algebraic Factorizations</title>
-      <link>https://cochleoid.github.io/math/algebraicfactor/</link>
+      <link>http://localhost:1313/math/algebraicfactor/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/algebraicfactor/</guid>
+      <guid>http://localhost:1313/math/algebraicfactor/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Vectors, Magnitudes and Dot Products</title>
-      <link>https://cochleoid.github.io/math/vectormagnitudes/</link>
+      <link>http://localhost:1313/math/vectormagnitudes/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/vectormagnitudes/</guid>
+      <guid>http://localhost:1313/math/vectormagnitudes/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Adrian&#39;s Step by Step Guide on PCPS Dual Enrollment</title>
-      <link>https://cochleoid.github.io/guides/1752265154342-adrians-step-by-step-guide-on-pcps-dual-enrollment/</link>
+      <link>http://localhost:1313/guides/1752265154342-adrians-step-by-step-guide-on-pcps-dual-enrollment/</link>
       <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/guides/1752265154342-adrians-step-by-step-guide-on-pcps-dual-enrollment/</guid>
+      <guid>http://localhost:1313/guides/1752265154342-adrians-step-by-step-guide-on-pcps-dual-enrollment/</guid>
       <description></description>
       
     </item>

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Email on Adrian Hernandez Vega</title>
-    <link>https://cochleoid.github.io/tags/email/</link>
+    <link>http://localhost:1313/tags/email/</link>
     <description>Recent content in Email on Adrian Hernandez Vega</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Adrian</copyright>
-    <lastBuildDate>Fri, 11 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/tags/email/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/email/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Beginner’s Guide to a Polite E-mail</title>
-      <link>https://cochleoid.github.io/guides/1752288356608-beginners-guide-to-a-polite-e-mail/</link>
+      <link>http://localhost:1313/guides/1752288356608-beginners-guide-to-a-polite-e-mail/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/guides/1752288356608-beginners-guide-to-a-polite-e-mail/</guid>
+      <guid>http://localhost:1313/guides/1752288356608-beginners-guide-to-a-polite-e-mail/</guid>
       <description></description>
       
     </item>
