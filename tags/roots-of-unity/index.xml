@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Roots of Unity on Adrian Hernandez Vega</title>
-    <link>http://localhost:1313/tags/roots-of-unity/</link>
+    <link>https://cochleoid.github.io/tags/roots-of-unity/</link>
     <description>Recent content in Roots of Unity on Adrian Hernandez Vega</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Adrian</copyright>
-    <lastBuildDate>Sat, 12 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/roots-of-unity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/tags/roots-of-unity/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Representing Polygons through the Roots of Unity</title>
-      <link>http://localhost:1313/projects/1752307880980-generating-polygons-and-polyhedra-with-the-roots-of-unity/</link>
+      <link>https://cochleoid.github.io/projects/1752307880980-generating-polygons-and-polyhedra-with-the-roots-of-unity/</link>
       <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/projects/1752307880980-generating-polygons-and-polyhedra-with-the-roots-of-unity/</guid>
+      <guid>https://cochleoid.github.io/projects/1752307880980-generating-polygons-and-polyhedra-with-the-roots-of-unity/</guid>
       <description></description>
       
     </item>
