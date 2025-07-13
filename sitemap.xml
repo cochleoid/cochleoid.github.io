@@ -4,19 +4,19 @@
 
   <url>
     <loc>https://cochleoid.github.io/</loc>
-    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://cochleoid.github.io/math/1752287146717-introduction-to-combinatorics/</loc>
-    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://cochleoid.github.io/math/</loc>
-    <lastmod>2025-07-12T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-13T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cochleoid.github.io/math/gaussvector/</loc>
+    <lastmod>2025-07-13T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -33,7 +33,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cochleoid.github.io/math/1752287280254-basic-exponential-functions/</loc>
+    <loc>https://cochleoid.github.io/math/basicexponentials/</loc>
     <lastmod>2025-07-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -45,13 +45,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cochleoid.github.io/math/1752268238944-introduction-to-divisor-arithmetic/</loc>
+    <loc>https://cochleoid.github.io/math/divisorarithmetic/divisorarithmetic/</loc>
     <lastmod>2025-07-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cochleoid.github.io/math/1752286603648-finding-elementary-inverse-functions/</loc>
+    <loc>https://cochleoid.github.io/math/introinverses/</loc>
     <lastmod>2025-07-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -63,13 +63,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cochleoid.github.io/math/1752267011544-introduction-to-circles/</loc>
-    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://cochleoid.github.io/math/1752267366317-introduction-to-the-asymptotes-of-a-rational-function/</loc>
+    <loc>https://cochleoid.github.io/math/rationalasymptotes/</loc>
     <lastmod>2025-07-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -81,13 +75,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cochleoid.github.io/math/1752286819009-some-algebraic-factorizations/</loc>
+    <loc>https://cochleoid.github.io/math/algebraicfactor/</loc>
     <lastmod>2025-07-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cochleoid.github.io/math/1752268520312-vectors-magnitudes-and-dot-products/</loc>
+    <loc>https://cochleoid.github.io/math/vectormagnitudes/</loc>
     <lastmod>2025-07-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
