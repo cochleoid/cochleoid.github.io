@@ -11,10 +11,10 @@
     
     <item>
       <title>Representing Polygons through the Roots of Unity</title>
-      <link>https://cochleoid.github.io/projects/1752307880980-generating-polygons-and-polyhedra-with-the-roots-of-unity/</link>
+      <link>https://cochleoid.github.io/projects/rootspolygons/</link>
       <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/projects/1752307880980-generating-polygons-and-polyhedra-with-the-roots-of-unity/</guid>
+      <guid>https://cochleoid.github.io/projects/rootspolygons/</guid>
       <description></description>
       
     </item>
@@ -31,10 +31,10 @@
     
     <item>
       <title>Divisor Arithmetic</title>
-      <link>https://cochleoid.github.io/math/divisorarithmetic/divisorarithmetic/</link>
+      <link>https://cochleoid.github.io/math/divisorarithmetic/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/divisorarithmetic/divisorarithmetic/</guid>
+      <guid>https://cochleoid.github.io/math/divisorarithmetic/</guid>
       <description></description>
       
     </item>
@@ -60,21 +60,41 @@
     </item>
     
     <item>
-      <title>Some Algebraic Factorizations</title>
-      <link>https://cochleoid.github.io/math/algebraicfactor/</link>
-      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://cochleoid.github.io/math/algebraicfactor/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Vectors, Magnitudes and Dot Products</title>
       <link>https://cochleoid.github.io/math/vectormagnitudes/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       
       <guid>https://cochleoid.github.io/math/vectormagnitudes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The Three Main Methods for Triangle Area</title>
+      <link>https://cochleoid.github.io/math/threetriangles/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/math/threetriangles/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Logarithmic Differentiation with Some Examples</title>
+      <link>https://cochleoid.github.io/math/logdiff/</link>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/math/logdiff/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Some Algebraic Factorizations</title>
+      <link>https://cochleoid.github.io/math/algebraicfactor/</link>
+      <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/math/algebraicfactor/</guid>
       <description></description>
       
     </item>
