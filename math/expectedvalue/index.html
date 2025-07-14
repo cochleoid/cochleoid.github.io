@@ -14,15 +14,15 @@
   <meta name="theme-color">
 
   
-  <title>Logarithmic Differentiation with Some Examples &middot; Adrian Hernandez Vega</title>
-    <meta name="title" content="Logarithmic Differentiation with Some Examples &middot; Adrian Hernandez Vega">
+  <title>Expected Value with Tables, Binomials, and Areas &middot; Adrian Hernandez Vega</title>
+    <meta name="title" content="Expected Value with Tables, Binomials, and Areas &middot; Adrian Hernandez Vega">
 
   
-  <meta name="description" content="Using properties of logarithms to solve some derivatives the power rule can’t.">
-  <meta name="keywords" content="math,calculus,differentiation,logarithms,">
+  <meta name="description" content="Evaluating some bets using the concept of expected value.">
+  <meta name="keywords" content="math,counting,statistics,probability,">
   
   
-  <link rel="canonical" href="https://cochleoid.github.io/math/logdiff/">
+  <link rel="canonical" href="https://cochleoid.github.io/math/expectedvalue/">
   
   
   
@@ -94,50 +94,50 @@
   
 
   
-  <meta property="og:url" content="https://cochleoid.github.io/math/logdiff/">
+  <meta property="og:url" content="https://cochleoid.github.io/math/expectedvalue/">
   <meta property="og:site_name" content="Adrian Hernandez Vega">
-  <meta property="og:title" content="Logarithmic Differentiation with Some Examples">
-  <meta property="og:description" content="Using properties of logarithms to solve some derivatives the power rule can’t.">
+  <meta property="og:title" content="Expected Value with Tables, Binomials, and Areas">
+  <meta property="og:description" content="Evaluating some bets using the concept of expected value.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="math">
-    <meta property="article:published_time" content="2024-04-12T00:00:00+00:00">
-    <meta property="article:modified_time" content="2024-04-12T00:00:00+00:00">
+    <meta property="article:published_time" content="2024-12-18T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-12-18T00:00:00+00:00">
     <meta property="article:tag" content="Math">
-    <meta property="article:tag" content="Calculus">
-    <meta property="article:tag" content="Differentiation">
-    <meta property="article:tag" content="Logarithms">
+    <meta property="article:tag" content="Counting">
+    <meta property="article:tag" content="Statistics">
+    <meta property="article:tag" content="Probability">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Logarithmic Differentiation with Some Examples">
-  <meta name="twitter:description" content="Using properties of logarithms to solve some derivatives the power rule can’t.">
+  <meta name="twitter:title" content="Expected Value with Tables, Binomials, and Areas">
+  <meta name="twitter:description" content="Evaluating some bets using the concept of expected value.">
 
   <script type="application/ld+json">
   [{
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Maths",
-    "name": "Logarithmic Differentiation with Some Examples",
-    "headline": "Logarithmic Differentiation with Some Examples",
-    "description": "Using properties of logarithms to solve some derivatives the power rule can’t.",
+    "name": "Expected Value with Tables, Binomials, and Areas",
+    "headline": "Expected Value with Tables, Binomials, and Areas",
+    "description": "Evaluating some bets using the concept of expected value.",
     
     "inLanguage": "en",
-    "url" : "https:\/\/cochleoid.github.io\/math\/logdiff\/",
+    "url" : "https:\/\/cochleoid.github.io\/math\/expectedvalue\/",
     "author" : {
       "@type": "Person",
       "name": "Adrian"
     },
     "copyrightYear": "2024",
-    "dateCreated": "2024-04-12T00:00:00\u002b00:00",
-    "datePublished": "2024-04-12T00:00:00\u002b00:00",
+    "dateCreated": "2024-12-18T00:00:00\u002b00:00",
+    "datePublished": "2024-12-18T00:00:00\u002b00:00",
     
-    "dateModified": "2024-04-12T00:00:00\u002b00:00",
+    "dateModified": "2024-12-18T00:00:00\u002b00:00",
     
-    "keywords": ["math","calculus","differentiation","logarithms"],
+    "keywords": ["math","counting","statistics","probability"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "375"
+    "wordCount": "583"
   }]
   </script>
 
@@ -722,7 +722,7 @@
     <header id="single_header" class="mt-5 max-w-prose">
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        Logarithmic Differentiation with Some Examples
+        Expected Value with Tables, Binomials, and Areas
       </h1>
       <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -775,7 +775,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2024-04-12T00:00:00&#43;00:00">12 April 2024</time><span class="px-2 text-primary-500">&middot;</span><span>375 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+      <time datetime="2024-12-18T00:00:00&#43;00:00">18 December 2024</time><span class="px-2 text-primary-500">&middot;</span><span>583 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
     
 
     
@@ -925,100 +925,180 @@
           
 
 
-<h2 class="relative group">Logarithmic Differentiation 
-    <div id="logarithmic-differentiation" class="anchor"></div>
+<h2 class="relative group">What Is Expected Value? 
+    <div id="what-is-expected-value" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#logarithmic-differentiation" aria-label="Anchor">#</a>
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#what-is-expected-value" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>Let’s say you have an expression like \( x^x \).</p>
-<p>You <strong>can’t</strong> use the regular power rule here because the exponent isn&rsquo;t a constant. So what do we do?</p>
-<p>We use <strong>logarithmic differentiation</strong>.</p>
+<p>Expected value (EV) tells you, on average, what to expect in a probabilistic setting — like gambling, games, or life.</p>
+<blockquote>
+<p><strong>Definition</strong>: Expected value is the weighted average of all outcomes, where each outcome is multiplied by its probability.</p></blockquote>
+<p>For a basic example:</p>
+<ul>
+<li>Heads: earn \( \$5 \)</li>
+<li>Tails: lose \( \$10 \)</li>
+<li>Both have \( \frac{1}{2} \) probability</li>
+</ul>
+\[
+\text{EV} = \frac{1}{2} \cdot 5 + \frac{1}{2} \cdot (-10) = -2.5
+\]<p>So you lose $2.50 per flip on average: not a fair game.</p>
 <hr>
 
-<h2 class="relative group">First Example: \( x^x \) 
-    <div id="first-example" class="anchor"></div>
+<h2 class="relative group">Expected Value in the Lottery 
+    <div id="expected-value-in-the-lottery" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#first-example" aria-label="Anchor">#</a>
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#expected-value-in-the-lottery" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>Let:</p>
+<p>Let’s say you analyze the Florida Lottery with outcomes and probabilities. If the weighted sum of your winnings is:</p>
 \[
-y = x^x
-\]<p>Take the natural log (ln) of both sides. You <em>can</em> technically use any base, but base \( e \) (i.e., \( \ln \)) is the most convenient.</p>
+\text{Total EV} = 68
+\]<p>You spent $2 on the ticket, so your <strong>net expected value</strong> is:</p>
 \[
-\ln y = \ln(x^x)
-\]<p>Using log rules to move the exponent down:</p>
+68 - 2 = 66
+\]<p>But suppose the real math gives:</p>
 \[
-\ln y = x \ln x
-\]<p>Now, differentiate both sides. Remember the rule:</p>
+\text{EV} = -1.33
+\]<p>This means you’re losing money in the long run. Even with huge jackpots, the odds are against you.</p>
+<hr>
+
+<h2 class="relative group">Word Rearrangement (Counting Methods) 
+    <div id="word-rearrangement-counting-methods" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#word-rearrangement-counting-methods" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Say you’re arranging letters:</p>
+<ul>
+<li>For the word <code>ADRI</code>: All letters are unique. Total permutations:</li>
+</ul>
 \[
-\frac{d}{dx}[\ln(f(x))] = \frac{f'(x)}{f(x)}
-\]<p>So:</p>
+4! = 24
+\]<ul>
+<li>For the word <code>ADRIAN</code>: Repeated letters must be adjusted:</li>
+</ul>
 \[
-\frac{d}{dx}[\ln y] = \frac{dy}{dx} \cdot \frac{1}{y} = \frac{y'}{y}
-\]<p>And for the right-hand side \( x \ln x \), we use the product rule:</p>
+\frac{6!}{2!} = 360
+\]<ul>
+<li>Lastly, for the word <code>SKASKA</code>: Repeated letters must be adjusted again:</li>
+</ul>
 \[
-\frac{d}{dx}[x \ln x] = x \cdot \frac{1}{x} + \ln x = 1 + \ln x
-\]<p>Putting it all together:</p>
-\[
-\frac{y'}{y} = 1 + \ln x
-\]<p>Now multiply both sides by \( y \):</p>
-\[
-y' = y(1 + \ln x)
-\]<p>Since \( y = x^x \), we substitute:</p>
-\[
-\boxed{y' = x^x(1 + \ln x)}
+\frac{6!}{2! \cdot 2! \cdot 2!} = 90
 \]<hr>
 
-<h2 class="relative group">Harder Example: \( (\sin x)^x \) 
-    <div id="harder-example" class="anchor"></div>
+<h2 class="relative group">True/False Chemistry Test 
+    <div id="truefalse-chemistry-test" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#harder-example" aria-label="Anchor">#</a>
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#truefalse-chemistry-test" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>Let:</p>
+<p>You take a 10-question true/false test randomly. What’s the chance of scoring exactly 7 correct?</p>
+<p>This is a binomial probability problem:</p>
 \[
-y = (\sin x)^x
-\]<p>Again, take the natural log of both sides:</p>
-\[
-\ln y = \ln\left((\sin x)^x\right)
-\]<p>Use the same trick: bring the exponent down:</p>
-\[
-\ln y = x \ln(\sin x)
-\]<p>Now differentiate both sides:</p>
-<ul>
-<li>Left-hand side:</li>
-</ul>
-\[
-\frac{y'}{y}
-\]<ul>
-<li>Right-hand side (product rule):</li>
-</ul>
-\[
-\frac{d}{dx}[x \ln(\sin x)] = x \cdot \frac{d}{dx}[\ln(\sin x)] + \ln(\sin x)
-\]<p>Use the chain rule on \( \ln(\sin x) \):</p>
-\[
-\frac{d}{dx}[\ln(\sin x)] = \frac{\cos x}{\sin x} = \cot x
-\]<p>So now the derivative becomes:</p>
-\[
-\frac{y'}{y} = x \cot x + \ln(\sin x)
-\]<p>Multiply both sides by \( y \):</p>
-\[
-y' = y(x \cot x + \ln(\sin x))
-\]<p>And substitute \( y = (\sin x)^x \):</p>
-\[
-\boxed{y' = (\sin x)^x (x \cot x + \ln(\sin x))}
+P = \frac{10!}{7! \cdot 3!} \cdot \left( \frac{1}{2} \right)^{10} = \frac{120}{1024} \approx 11.7\%
 \]<hr>
+
+<h2 class="relative group">Area-Based Probability 
+    <div id="area-based-probability" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#area-based-probability" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>You shoot a basketball at random on a square backboard of area \( 10 \times 10 = 100 \). The hoop is a circle of radius 3:</p>
+\[
+\text{Success Area} = \pi \cdot 3^2 = 9\pi \approx 28.27
+\]<p>
+</p>
+\[
+P(\text{make}) = \frac{9\pi}{100} \approx 0.28
+\]<hr>
+
+<h2 class="relative group">Bet 1: Million-Dollar Target 
+    <div id="bet-1-million-dollar-target" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#bet-1-million-dollar-target" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>You pay $10,000 to shoot a random point at a 25×30 rectangle containing a small diamond-shaped region (formed by joining midpoints of a 2×3 rectangle). Only 2 of 8 internal triangles are shaded:</p>
+\[
+\text{Success Area} = \frac{1}{4} \cdot 6 = 1.5
+\]<p>
+</p>
+\[
+\text{Total Area} = 25 \cdot 30 = 750
+\]<p>
+</p>
+\[
+\text{EV} = \frac{1.5}{750} \cdot 1{,}000{,}000 - 10{,}000 = -\$8{,}000
+\]<p><strong>Don’t take this bet.</strong></p>
+<hr>
+
+<h2 class="relative group">Bet 2: Deck of Cards 
+    <div id="bet-2-deck-of-cards" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#bet-2-deck-of-cards" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<ul>
+<li>Draw a card.</li>
+<li>Win $35,000 if it’s a face card or ace (total of 16 cards).</li>
+<li>Pay $10,000 to play.</li>
+</ul>
+\[
+\text{P(win)} = \frac{16}{52},\quad \text{EV} = \frac{16}{52} \cdot 35{,}000 - 10{,}000 = -\$2{,}230.77
+\]<p><strong>Again, not worth it.</strong></p>
+<hr>
+
+<h2 class="relative group">Bet 3: Scrabble Tiles 
+    <div id="bet-3-scrabble-tiles" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#bet-3-scrabble-tiles" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>You draw 3 Scrabble tiles with replacement from a bag of 60 (18 vowels, 42 consonants). Payouts:</p>
+<ul>
+<li>0 vowels → $0</li>
+<li>1 vowel → $20,000</li>
+<li>2 vowels → $20,000</li>
+<li>3 vowels → Lose $90,000</li>
+</ul>
+<p>Let’s compute:</p>
+<ul>
+<li>\( P(0) = \left( \frac{42}{60} \right)^3 \)</li>
+<li>\( P(1) = 3 \cdot \left( \frac{18}{60} \right) \cdot \left( \frac{42}{60} \right)^2 \)</li>
+<li>\( P(2) = 3 \cdot \left( \frac{18}{60} \right)^2 \cdot \left( \frac{42}{60} \right) \)</li>
+<li>\( P(3) = \left( \frac{18}{60} \right)^3 \)</li>
+</ul>
+\[
+\text{EV} = P(1) \cdot 20{,}000 + P(2) \cdot 20{,}000 - P(3) \cdot 90{,}000 - 10{,}000
+\approx +\$170
+\]<p><strong>This one is actually favorable. Take the bet!</strong></p>
+<hr>
 
 <h2 class="relative group">Summary 
     <div id="summary" class="anchor"></div>
@@ -1029,12 +1109,42 @@ y' = y(x \cot x + \ln(\sin x))
     </span>        
     
 </h2>
-<p>Logarithmic differentiation is your go-to tool when:</p>
-<ul>
-<li>The <strong>exponent is not constant</strong></li>
-<li>You have <strong>variable bases and exponents</strong></li>
-<li>You need to simplify messy products involving exponents and logs</li>
-</ul>
+<table>
+  <thead>
+      <tr>
+          <th>Bet/Game</th>
+          <th>Expected Value</th>
+          <th>Should You Take It?</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Coin Flip</td>
+          <td>-$2.50</td>
+          <td>Nope</td>
+      </tr>
+      <tr>
+          <td>Lottery Ticket</td>
+          <td>-$1.33</td>
+          <td>Nope</td>
+      </tr>
+      <tr>
+          <td>Target Shooting</td>
+          <td>-$8,000</td>
+          <td>Nope</td>
+      </tr>
+      <tr>
+          <td>Card Bet</td>
+          <td>-$2,230</td>
+          <td>Nope</td>
+      </tr>
+      <tr>
+          <td>Scrabble Bet</td>
+          <td>+$170</td>
+          <td>Go ahead</td>
+      </tr>
+  </tbody>
+</table>
 
 <h2 class="relative group">Credits 
     <div id="credits" class="anchor"></div>
@@ -1048,7 +1158,7 @@ y' = y(x \cot x + \ln(\sin x))
 <p>All explanations and problems written by <strong>Adrian Hernandez Vega</strong>, unless otherwise noted.</p>
 <p>Prefer video? Watch the full explanation here:
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/x_dYtcO5BbA?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/EZMSSMFC6UA?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
     </div>
 </p>
 
@@ -1080,8 +1190,8 @@ y' = y(x \cot x + \ln(\sin x))
           type="text/javascript"
           src="/js/page.min.54b6f4371722649edbe871e431d8670d670878c22be8f36e229fe53cc9b786fe25a834def5e6de621f7a3e37b72bc8cd73839aa5ed907ed6cbd45cd3e1b0fa20.js"
           integrity="sha512-VLb0NxciZJ7b6HHkMdhnDWcIeMIr6PNuIp/lPMm3hv4lqDTe9ebeYh96Pje3K8jNc4Oape2QftbL1FzT4bD6IA=="
-          data-oid="views_math/logdiff/index.md"
-          data-oid-likes="likes_math/logdiff/index.md"></script>
+          data-oid="views_math/expectedvalue/index.md"
+          data-oid-likes="likes_math/expectedvalue/index.md"></script>
       
 
     </section>
@@ -1096,7 +1206,7 @@ y' = y(x \cot x + \ln(\sin x))
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/math/introinverses/">
+            <a class="flex group mr-3" href="/math/rationalasymptotes/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -1107,11 +1217,11 @@ y' = y(x \cot x + \ln(\sin x))
               >
               <span class="flex flex-col">
                 <span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Finding Elementary Inverse Functions</span
+                  >Introduction to the Asymptotes of a Rational Function</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2024-03-04T00:00:00&#43;00:00">4 March 2024</time>
+                    <time datetime="2024-05-21T00:00:00&#43;00:00">21 May 2024</time>
                   
                 </span>
               </span>
@@ -1120,14 +1230,14 @@ y' = y(x \cot x + \ln(\sin x))
         </span>
         <span>
           
-            <a class="flex text-right group ml-3" href="/math/rationalasymptotes/">
+            <a class="flex text-right group ml-3" href="/math/threetriangles/">
               <span class="flex flex-col">
                 <span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Introduction to the Asymptotes of a Rational Function</span
+                  >The Three Main Methods for Triangle Area</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2024-05-21T00:00:00&#43;00:00">21 May 2024</time>
+                    <time datetime="2025-01-15T00:00:00&#43;00:00">15 January 2025</time>
                   
                 </span>
               </span>

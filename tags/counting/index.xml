@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Statistics on Adrian Hernandez Vega</title>
-    <link>https://cochleoid.github.io/tags/statistics/</link>
-    <description>Recent content in Statistics on Adrian Hernandez Vega</description>
+    <title>Counting on Adrian Hernandez Vega</title>
+    <link>https://cochleoid.github.io/tags/counting/</link>
+    <description>Recent content in Counting on Adrian Hernandez Vega</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Adrian</copyright>
-    <lastBuildDate>Fri, 11 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 11 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/tags/counting/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>My First Science Fair: Acidity and Temperature</title>
-      <link>https://cochleoid.github.io/projects/firstfair/</link>
-      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      <title>Vector Summation with Gauss&#39;s Formula</title>
+      <link>https://cochleoid.github.io/math/gaussvector/</link>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/projects/firstfair/</guid>
+      <guid>https://cochleoid.github.io/math/gaussvector/</guid>
       <description></description>
       
     </item>

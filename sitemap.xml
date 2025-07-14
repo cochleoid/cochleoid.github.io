@@ -21,18 +21,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cochleoid.github.io/math/</loc>
-    <lastmod>2025-07-13T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://cochleoid.github.io/math/gaussvector/</loc>
-    <lastmod>2025-07-13T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://cochleoid.github.io/projects/</loc>
     <lastmod>2025-07-12T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -63,13 +51,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cochleoid.github.io/math/introinverses/</loc>
-    <lastmod>2025-07-11T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://cochleoid.github.io/math/rationalasymptotes/</loc>
+    <loc>https://cochleoid.github.io/math/</loc>
     <lastmod>2025-07-11T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -87,6 +69,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://cochleoid.github.io/math/gaussvector/</loc>
+    <lastmod>2025-06-11T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://cochleoid.github.io/guides/1752265154342-adrians-step-by-step-guide-on-pcps-dual-enrollment/</loc>
     <lastmod>2025-04-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
@@ -99,8 +87,26 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://cochleoid.github.io/math/expectedvalue/</loc>
+    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cochleoid.github.io/math/rationalasymptotes/</loc>
+    <lastmod>2024-05-21T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://cochleoid.github.io/math/logdiff/</loc>
     <lastmod>2024-04-12T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cochleoid.github.io/math/introinverses/</loc>
+    <lastmod>2024-03-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

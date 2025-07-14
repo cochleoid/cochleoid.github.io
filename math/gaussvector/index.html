@@ -14,12 +14,12 @@
   <meta name="theme-color">
 
   
-  <title>Summing Vectors like Gauss &middot; Adrian Hernandez Vega</title>
-    <meta name="title" content="Summing Vectors like Gauss &middot; Adrian Hernandez Vega">
+  <title>Vector Summation with Gauss&#39;s Formula &middot; Adrian Hernandez Vega</title>
+    <meta name="title" content="Vector Summation with Gauss&#39;s Formula &middot; Adrian Hernandez Vega">
 
   
-  <meta name="description" content="Showcasing math, technical writing, and some research projects.">
-  
+  <meta name="description" content="Explaining how Gauss&#39;s formula can be applied to vectors through component addition.">
+  <meta name="keywords" content="math,algebra,summation,vectors,counting,">
   
   
   <link rel="canonical" href="https://cochleoid.github.io/math/gaussvector/">
@@ -96,27 +96,32 @@
   
   <meta property="og:url" content="https://cochleoid.github.io/math/gaussvector/">
   <meta property="og:site_name" content="Adrian Hernandez Vega">
-  <meta property="og:title" content="Summing Vectors like Gauss">
-  <meta property="og:description" content="Showcasing math, technical writing, and some research projects.">
+  <meta property="og:title" content="Vector Summation with Gauss&#39;s Formula">
+  <meta property="og:description" content="Explaining how Gauss&#39;s formula can be applied to vectors through component addition.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="math">
-    <meta property="article:published_time" content="2025-07-13T00:00:00+00:00">
-    <meta property="article:modified_time" content="2025-07-13T00:00:00+00:00">
+    <meta property="article:published_time" content="2025-06-11T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-06-11T00:00:00+00:00">
+    <meta property="article:tag" content="Math">
+    <meta property="article:tag" content="Algebra">
+    <meta property="article:tag" content="Summation">
+    <meta property="article:tag" content="Vectors">
+    <meta property="article:tag" content="Counting">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Summing Vectors like Gauss">
-  <meta name="twitter:description" content="Showcasing math, technical writing, and some research projects.">
+  <meta name="twitter:title" content="Vector Summation with Gauss&#39;s Formula">
+  <meta name="twitter:description" content="Explaining how Gauss&#39;s formula can be applied to vectors through component addition.">
 
   <script type="application/ld+json">
   [{
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Maths",
-    "name": "Summing Vectors like Gauss",
-    "headline": "Summing Vectors like Gauss",
-    
+    "name": "Vector Summation with Gauss\u0027s Formula",
+    "headline": "Vector Summation with Gauss\u0027s Formula",
+    "description": "Explaining how Gauss\u0027s formula can be applied to vectors through component addition.",
     
     "inLanguage": "en",
     "url" : "https:\/\/cochleoid.github.io\/math\/gaussvector\/",
@@ -125,15 +130,15 @@
       "name": "Adrian"
     },
     "copyrightYear": "2025",
-    "dateCreated": "2025-07-13T00:00:00\u002b00:00",
-    "datePublished": "2025-07-13T00:00:00\u002b00:00",
+    "dateCreated": "2025-06-11T00:00:00\u002b00:00",
+    "datePublished": "2025-06-11T00:00:00\u002b00:00",
     
-    "dateModified": "2025-07-13T00:00:00\u002b00:00",
+    "dateModified": "2025-06-11T00:00:00\u002b00:00",
     
-    
+    "keywords": ["math","algebra","summation","vectors","counting"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "357"
+    "wordCount": "379"
   }]
   </script>
 
@@ -718,7 +723,7 @@
     <header id="single_header" class="mt-5 max-w-prose">
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        Summing Vectors like Gauss
+        Vector Summation with Gauss's Formula
       </h1>
       <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -771,7 +776,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-07-13T00:00:00&#43;00:00">13 July 2025</time><span class="px-2 text-primary-500">&middot;</span><span>357 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+      <time datetime="2025-06-11T00:00:00&#43;00:00">11 June 2025</time><span class="px-2 text-primary-500">&middot;</span><span>379 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
     
 
     
@@ -931,7 +936,7 @@
     
 </h2>
 <p>In this article we&rsquo;re going to be dealing with a little vector sum.</p>
-<p>We’re given:</p>
+<p>We&rsquo;re given:</p>
 \[
 \sum_{i=1}^{100} 
 \begin{bmatrix}
@@ -992,20 +997,29 @@ i + 1
     
 </h2>
 <p>When you add column vectors, you add component-wise. So this becomes:</p>
-\[
-\sum_{i=1}^{100} 
+
+<h1 class="relative group">[
+\sum_{i=1}^{100}
 \begin{bmatrix}
-i - 1 \\
-i \\
+i - 1 \
+i \
 i + 1
-\end{bmatrix}
-\]\[=
-\begin{bmatrix}
-\sum_{i=1}^{100} (i - 1) \\
-\sum_{i=1}^{100} i \\
+\end{bmatrix} 
+    <div id="endbmatrix" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#endbmatrix" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+<p>\begin{bmatrix}
+\sum_{i=1}^{100} (i - 1) \
+\sum_{i=1}^{100} i \
 \sum_{i=1}^{100} (i + 1)
 \end{bmatrix}
-\]<p>Now we can break each of these down.</p>
+]</p>
+<p>Now we can break each of these down.</p>
 <hr>
 
 <h2 class="relative group">Middle Term: Gauss Trick 
@@ -1045,7 +1059,7 @@ i + 1
     </span>        
     
 </h2>
-<p>This is just shifting each term down by 1, so it’s:</p>
+<p>This is just shifting each term down by 1, so it&rsquo;s:</p>
 \[
 \sum_{i=1}^{100} (i - 1) = \sum_{i=1}^{100} i - 100 = 5050 - 100 = 4950
 \]<hr>
@@ -1081,6 +1095,22 @@ i + 1
 5150
 \end{bmatrix}
 \]<hr>
+
+<h2 class="relative group">Credits 
+    <div id="credits" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#credits" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>All explanations and problems written by <strong>Adrian Hernandez Vega</strong>, unless otherwise noted.</p>
+<p>Prefer video? Watch the full explanation here:<br>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/V5jD8eyu-mE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+</p>
 
           
           
@@ -1126,7 +1156,7 @@ i + 1
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/math/basicexponentials/">
+            <a class="flex group mr-3" href="/math/threetriangles/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -1137,11 +1167,11 @@ i + 1
               >
               <span class="flex flex-col">
                 <span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Basic Exponential Functions</span
+                  >The Three Main Methods for Triangle Area</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2025-07-11T00:00:00&#43;00:00">11 July 2025</time>
+                    <time datetime="2025-01-15T00:00:00&#43;00:00">15 January 2025</time>
                   
                 </span>
               </span>
@@ -1149,6 +1179,27 @@ i + 1
           
         </span>
         <span>
+          
+            <a class="flex text-right group ml-3" href="/math/vectormagnitudes/">
+              <span class="flex flex-col">
+                <span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Vectors, Magnitudes and Dot Products</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2025-07-11T00:00:00&#43;00:00">11 July 2025</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
           
         </span>
       </div>
