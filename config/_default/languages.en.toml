@@ -1,0 +1,29 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Adrian Hernandez Vega"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+description = "Showcasing math, technical writing, and some research projects."
+logo = " "
+
+[[params.author.links]]
+heart = "https://lichess.org/@/Adrian_HV"
+
+[[params.author.links]]
+microsoft = "https://pcsb-my.sharepoint.com/:f:/g/personal/adrianh29_mypolkschools_net/Eh3ZOMXAL2tIiv1Konwo0A4BTKlEBM4X5n59zPzEmxFvQQ?e=WzSku2"
+
+[[params.author.links]]
+phone = "https://cal.com/cochleoid/1-hour-quick-call"
+
+[[params.author.links]]
+youtube = "https://www.youtube.com/@AdrianJHV"
+
+["params.author"]
+name = "Adrian"
+headline = "Welcome to my website. Feel free to look around."
