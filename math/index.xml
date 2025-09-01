@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Adrian</copyright>
-    <lastBuildDate>Fri, 11 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/math/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/math/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Tangent Substitution in Integration</title>
+      <link>https://cochleoid.github.io/math/tansubstitution/</link>
+      <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/math/tansubstitution/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Basic Exponential Functions</title>
@@ -35,6 +45,16 @@
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       
       <guid>https://cochleoid.github.io/math/vectormagnitudes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Deriving Projectile Formulas with Calculus</title>
+      <link>https://cochleoid.github.io/math/projectilecalculus/</link>
+      <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/math/projectilecalculus/</guid>
       <description></description>
       
     </item>

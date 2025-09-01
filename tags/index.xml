@@ -7,7 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Adrian</copyright>
-    <lastBuildDate>Sat, 16 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Integration</title>
+      <link>https://cochleoid.github.io/tags/integration/</link>
+      <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/tags/integration/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Math</title>
+      <link>https://cochleoid.github.io/tags/math/</link>
+      <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/tags/math/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Substitution</title>
+      <link>https://cochleoid.github.io/tags/substitution/</link>
+      <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/tags/substitution/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Trigonometry</title>
+      <link>https://cochleoid.github.io/tags/trigonometry/</link>
+      <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/tags/trigonometry/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Calculus</title>
@@ -100,16 +140,6 @@
     </item>
     
     <item>
-      <title>Math</title>
-      <link>https://cochleoid.github.io/tags/math/</link>
-      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://cochleoid.github.io/tags/math/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Roots of Unity</title>
       <link>https://cochleoid.github.io/tags/roots-of-unity/</link>
       <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
@@ -195,6 +225,36 @@
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       
       <guid>https://cochleoid.github.io/tags/vectors/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Derivation</title>
+      <link>https://cochleoid.github.io/tags/derivation/</link>
+      <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/tags/derivation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Physics</title>
+      <link>https://cochleoid.github.io/tags/physics/</link>
+      <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/tags/physics/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Projectile Motion</title>
+      <link>https://cochleoid.github.io/tags/projectile-motion/</link>
+      <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/tags/projectile-motion/</guid>
       <description></description>
       
     </item>
