@@ -2,7 +2,7 @@
 title: "Adrian's Step by Step Guide on PCPS Dual Enrollment"
 date: 2025-04-02
 draft: false
-description: "a description"
+description: "A guide on how to dual-enroll in central Florida, from registration to final approval."
 tags: ["school", "dualenrollment"]
 ---
 

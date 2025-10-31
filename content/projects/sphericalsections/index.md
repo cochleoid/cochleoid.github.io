@@ -9,7 +9,7 @@ tags: ["mathematics", "calculus", "geometry"]
 {{< katex >}}
 
 # Deriving Curved Surface Area Sections Over a Sphere
-
+**Adrian Jose Hernandez Vega**
 ## Abstract
 A problem Mr. Rosario and I briefly discussed regarding how one would solve for a partitioned surface area from a birds-eye view in between bounds \(x=b\) and \(x=a\). The goal is to derive an explicit formula without spherical coordinates or parametrization.
 
