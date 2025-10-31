@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Adrian</copyright>
-    <lastBuildDate>Sat, 30 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Dwm</title>
+      <link>https://cochleoid.github.io/tags/dwm/</link>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/tags/dwm/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://cochleoid.github.io/tags/linux/</link>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/tags/linux/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Screenshot</title>
+      <link>https://cochleoid.github.io/tags/screenshot/</link>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/tags/screenshot/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Integration</title>
@@ -150,16 +180,6 @@
     </item>
     
     <item>
-      <title>“Writing”</title>
-      <link>https://cochleoid.github.io/tags/writing/</link>
-      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://cochleoid.github.io/tags/writing/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Algebra</title>
       <link>https://cochleoid.github.io/tags/algebra/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
@@ -170,41 +190,11 @@
     </item>
     
     <item>
-      <title>Communication</title>
-      <link>https://cochleoid.github.io/tags/communication/</link>
-      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://cochleoid.github.io/tags/communication/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Email</title>
-      <link>https://cochleoid.github.io/tags/email/</link>
-      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://cochleoid.github.io/tags/email/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Functions</title>
       <link>https://cochleoid.github.io/tags/functions/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       
       <guid>https://cochleoid.github.io/tags/functions/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Guide</title>
-      <link>https://cochleoid.github.io/tags/guide/</link>
-      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://cochleoid.github.io/tags/guide/</guid>
       <description></description>
       
     </item>

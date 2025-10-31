@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Adrian</copyright>
-    <lastBuildDate>Sat, 30 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Screenshotting in DWM with Scrot (and OCR with Tesseract)</title>
+      <link>https://cochleoid.github.io/guides/dwm-scrot/</link>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/guides/dwm-scrot/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Tangent Substitution in Integration</title>
@@ -70,16 +80,6 @@
     </item>
     
     <item>
-      <title>Beginner’s Guide to a Polite E-mail</title>
-      <link>https://cochleoid.github.io/guides/1752288356608-beginners-guide-to-a-polite-e-mail/</link>
-      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://cochleoid.github.io/guides/1752288356608-beginners-guide-to-a-polite-e-mail/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Divisor Arithmetic</title>
       <link>https://cochleoid.github.io/math/divisorarithmetic/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
@@ -121,10 +121,10 @@
     
     <item>
       <title>Adrian&#39;s Step by Step Guide on PCPS Dual Enrollment</title>
-      <link>https://cochleoid.github.io/guides/1752265154342-adrians-step-by-step-guide-on-pcps-dual-enrollment/</link>
+      <link>https://cochleoid.github.io/guides/dual-guide/</link>
       <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/guides/1752265154342-adrians-step-by-step-guide-on-pcps-dual-enrollment/</guid>
+      <guid>https://cochleoid.github.io/guides/dual-guide/</guid>
       <description></description>
       
     </item>
