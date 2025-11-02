@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algebra on Adrian Hernandez Vega</title>
+    <link>https://cochleoid.github.io/tags/algebra/</link>
+    <description>Recent content in Algebra on Adrian Hernandez Vega</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Adrian</copyright>
+    <lastBuildDate>Fri, 11 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/tags/algebra/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Basic Exponential Functions</title>
+      <link>https://cochleoid.github.io/math/basicexponentials/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/math/basicexponentials/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Vectors, Magnitudes and Dot Products</title>
+      <link>https://cochleoid.github.io/math/vectormagnitudes/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/math/vectormagnitudes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Vector Summation with Gauss&#39;s Formula</title>
+      <link>https://cochleoid.github.io/math/gaussvector/</link>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/math/gaussvector/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Introduction to the Asymptotes of a Rational Function</title>
+      <link>https://cochleoid.github.io/math/rationalasymptotes/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/math/rationalasymptotes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Finding Elementary Inverse Functions</title>
+      <link>https://cochleoid.github.io/math/introinverses/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/math/introinverses/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Some Algebraic Factorizations</title>
+      <link>https://cochleoid.github.io/math/algebraicfactor/</link>
+      <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/math/algebraicfactor/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
