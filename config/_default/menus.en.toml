@@ -1,35 +1,24 @@
 [[main]]
-none = "none"
-
-[[main]]
 name = "Math"
 pageRef = "math"
-identifier = "7qfj2vdiTe"
 weight = 1
 
 [[main]]
-name = "Guides"
-pageRef = "guides"
-identifier = "57whfUAaZx"
+name = "Systems"
+pageRef = "systems"
 weight = 2
+
+[[main]]
+name = "Academics"
+pageRef = "academics"
+weight = 3
 
 [[main]]
 name = "Projects"
 pageRef = "projects"
-identifier = "e7KLyQPlFv"
-weight = 3
-
-[[main]]
-name = "Blog"
-pageRef = "blog"
-identifier = "FXyemUF4C5"
 weight = 4
 
 [[main]]
-name = "Coaching"
-pageRef = "blog/coaching"
-identifier = "xImEFscn9N"
-weight = 9_999
-
-[[footer]]
-none = "none"
+name = "Journal"
+pageRef = "journal"
+weight = 5
