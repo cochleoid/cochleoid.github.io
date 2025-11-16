@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Adrian</copyright>
-    <lastBuildDate>Fri, 31 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/systems/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/systems/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>No Kernel? No Problem! A Rescue Mission Told in CLI</title>
+      <link>https://cochleoid.github.io/systems/missing-kernel/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/systems/missing-kernel/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Screenshotting in DWM with Scrot (and OCR with Tesseract)</title>

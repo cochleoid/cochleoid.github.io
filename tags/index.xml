@@ -7,7 +7,57 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Adrian</copyright>
-    <lastBuildDate>Sun, 02 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Arch</title>
+      <link>https://cochleoid.github.io/tags/arch/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/tags/arch/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Btrfs</title>
+      <link>https://cochleoid.github.io/tags/btrfs/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/tags/btrfs/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Grub</title>
+      <link>https://cochleoid.github.io/tags/grub/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/tags/grub/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://cochleoid.github.io/tags/linux/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/tags/linux/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Recovery</title>
+      <link>https://cochleoid.github.io/tags/recovery/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/tags/recovery/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>College Credit</title>
@@ -55,16 +105,6 @@
       <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
       
       <guid>https://cochleoid.github.io/tags/dwm/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://cochleoid.github.io/tags/linux/</link>
-      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://cochleoid.github.io/tags/linux/</guid>
       <description></description>
       
     </item>

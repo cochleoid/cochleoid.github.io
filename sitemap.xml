@@ -3,13 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://cochleoid.github.io/academics/</loc>
-    <lastmod>2025-11-02T00:00:00+00:00</lastmod>
+    <loc>https://cochleoid.github.io/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://cochleoid.github.io/</loc>
+    <loc>https://cochleoid.github.io/systems/missing-kernel/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cochleoid.github.io/systems/</loc>
+    <lastmod>2025-11-15T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cochleoid.github.io/academics/</loc>
     <lastmod>2025-11-02T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -22,12 +34,6 @@
   </url>
   <url>
     <loc>https://cochleoid.github.io/systems/dwm-scrot/</loc>
-    <lastmod>2025-10-31T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://cochleoid.github.io/systems/</loc>
     <lastmod>2025-10-31T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
