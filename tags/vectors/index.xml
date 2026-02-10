@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vectors on Adrian Hernandez Vega</title>
-    <link>http://localhost:1313/tags/vectors/</link>
+    <link>https://cochleoid.github.io/tags/vectors/</link>
     <description>Recent content in Vectors on Adrian Hernandez Vega</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Adrian</copyright>
-    <lastBuildDate>Fri, 11 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/vectors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/tags/vectors/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Vectors, Magnitudes and Dot Products</title>
-      <link>http://localhost:1313/math/vectormagnitudes/</link>
+      <link>https://cochleoid.github.io/math/vectormagnitudes/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/math/vectormagnitudes/</guid>
+      <guid>https://cochleoid.github.io/math/vectormagnitudes/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Vector Summation with Gauss&#39;s Formula</title>
-      <link>http://localhost:1313/math/gaussvector/</link>
+      <link>https://cochleoid.github.io/math/gaussvector/</link>
       <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/math/gaussvector/</guid>
+      <guid>https://cochleoid.github.io/math/gaussvector/</guid>
       <description></description>
       
     </item>
