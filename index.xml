@@ -2,269 +2,259 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adrian Hernandez Vega</title>
-    <link>https://cochleoid.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Adrian Hernandez Vega</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2025 Adrian</copyright>
-    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 Adrian</copyright>
+    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>No Kernel? No Problem! A Rescue Mission Told in CLI</title>
-      <link>https://cochleoid.github.io/systems/missing-kernel/</link>
+      <link>http://localhost:1313/systems/missing-kernel/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/systems/missing-kernel/</guid>
+      <guid>http://localhost:1313/systems/missing-kernel/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Transferability of Dual Enrollment Courses</title>
-      <link>https://cochleoid.github.io/academics/dual-transfer/</link>
+      <link>http://localhost:1313/academics/dual-transfer/</link>
       <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/academics/dual-transfer/</guid>
+      <guid>http://localhost:1313/academics/dual-transfer/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Screenshotting in DWM with Scrot (and OCR with Tesseract)</title>
-      <link>https://cochleoid.github.io/systems/dwm-scrot/</link>
+      <link>http://localhost:1313/systems/dwm-scrot/</link>
       <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/systems/dwm-scrot/</guid>
+      <guid>http://localhost:1313/systems/dwm-scrot/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Tangent Substitution in Integration</title>
-      <link>https://cochleoid.github.io/math/tansubstitution/</link>
+      <link>http://localhost:1313/math/tansubstitution/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/tansubstitution/</guid>
+      <guid>http://localhost:1313/math/tansubstitution/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Deriving Curved Surface Area Sections Over a Sphere</title>
-      <link>https://cochleoid.github.io/projects/sphericalsections/</link>
+      <link>http://localhost:1313/projects/sphericalsections/</link>
       <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/projects/sphericalsections/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Bartow High School Club Directory</title>
-      <link>https://cochleoid.github.io/academics/bhsclubs/</link>
-      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://cochleoid.github.io/academics/bhsclubs/</guid>
+      <guid>http://localhost:1313/projects/sphericalsections/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Representing Polygons through the Roots of Unity</title>
-      <link>https://cochleoid.github.io/projects/rootspolygons/</link>
+      <link>http://localhost:1313/projects/rootspolygons/</link>
       <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/projects/rootspolygons/</guid>
+      <guid>http://localhost:1313/projects/rootspolygons/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Basic Exponential Functions</title>
-      <link>https://cochleoid.github.io/math/basicexponentials/</link>
+      <link>http://localhost:1313/math/basicexponentials/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/basicexponentials/</guid>
+      <guid>http://localhost:1313/math/basicexponentials/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Divisor Arithmetic</title>
-      <link>https://cochleoid.github.io/math/divisorarithmetic/</link>
+      <link>http://localhost:1313/math/divisorarithmetic/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/divisorarithmetic/</guid>
+      <guid>http://localhost:1313/math/divisorarithmetic/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Vectors, Magnitudes and Dot Products</title>
-      <link>https://cochleoid.github.io/math/vectormagnitudes/</link>
+      <link>http://localhost:1313/math/vectormagnitudes/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/vectormagnitudes/</guid>
+      <guid>http://localhost:1313/math/vectormagnitudes/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Deriving Projectile Formulas with Calculus</title>
-      <link>https://cochleoid.github.io/math/projectilecalculus/</link>
+      <link>http://localhost:1313/math/projectilecalculus/</link>
       <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/projectilecalculus/</guid>
+      <guid>http://localhost:1313/math/projectilecalculus/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Vector Summation with Gauss&#39;s Formula</title>
-      <link>https://cochleoid.github.io/math/gaussvector/</link>
+      <link>http://localhost:1313/math/gaussvector/</link>
       <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/gaussvector/</guid>
+      <guid>http://localhost:1313/math/gaussvector/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Adrian&#39;s Step by Step Guide on PCPS Dual Enrollment</title>
-      <link>https://cochleoid.github.io/academics/dual-guide/</link>
+      <link>http://localhost:1313/academics/dual-guide/</link>
       <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/academics/dual-guide/</guid>
+      <guid>http://localhost:1313/academics/dual-guide/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>The Three Main Methods for Triangle Area</title>
-      <link>https://cochleoid.github.io/math/threetriangles/</link>
+      <link>http://localhost:1313/math/threetriangles/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/threetriangles/</guid>
+      <guid>http://localhost:1313/math/threetriangles/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Expected Value with Tables, Binomials, and Areas</title>
-      <link>https://cochleoid.github.io/math/expectedvalue/</link>
+      <link>http://localhost:1313/math/expectedvalue/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/expectedvalue/</guid>
+      <guid>http://localhost:1313/math/expectedvalue/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Absolute Value Equations</title>
-      <link>https://cochleoid.github.io/math/absolutevalue/</link>
+      <link>http://localhost:1313/math/absolutevalue/</link>
       <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/absolutevalue/</guid>
+      <guid>http://localhost:1313/math/absolutevalue/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Introduction to the Asymptotes of a Rational Function</title>
-      <link>https://cochleoid.github.io/math/rationalasymptotes/</link>
+      <link>http://localhost:1313/math/rationalasymptotes/</link>
       <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/rationalasymptotes/</guid>
+      <guid>http://localhost:1313/math/rationalasymptotes/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Logarithmic Differentiation with Some Examples</title>
-      <link>https://cochleoid.github.io/math/logdiff/</link>
+      <link>http://localhost:1313/math/logdiff/</link>
       <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/logdiff/</guid>
+      <guid>http://localhost:1313/math/logdiff/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Basic Differentiation Rules</title>
-      <link>https://cochleoid.github.io/math/derivativerules/</link>
+      <link>http://localhost:1313/math/derivativerules/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/derivativerules/</guid>
+      <guid>http://localhost:1313/math/derivativerules/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Finding Elementary Inverse Functions</title>
-      <link>https://cochleoid.github.io/math/introinverses/</link>
+      <link>http://localhost:1313/math/introinverses/</link>
       <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/introinverses/</guid>
+      <guid>http://localhost:1313/math/introinverses/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Some Algebraic Factorizations</title>
-      <link>https://cochleoid.github.io/math/algebraicfactor/</link>
+      <link>http://localhost:1313/math/algebraicfactor/</link>
       <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/algebraicfactor/</guid>
+      <guid>http://localhost:1313/math/algebraicfactor/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Circles</title>
-      <link>https://cochleoid.github.io/math/introcircles/</link>
+      <link>http://localhost:1313/math/introcircles/</link>
       <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/introcircles/</guid>
+      <guid>http://localhost:1313/math/introcircles/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Quadratics</title>
-      <link>https://cochleoid.github.io/math/quadratics/</link>
+      <link>http://localhost:1313/math/quadratics/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/quadratics/</guid>
+      <guid>http://localhost:1313/math/quadratics/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>A Triangle&#39;s Orthocenter Given Its Coordinates</title>
-      <link>https://cochleoid.github.io/projects/orthocenterformula/</link>
+      <link>http://localhost:1313/projects/orthocenterformula/</link>
       <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/projects/orthocenterformula/</guid>
+      <guid>http://localhost:1313/projects/orthocenterformula/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Cramer&#39;s Rule in R2</title>
-      <link>https://cochleoid.github.io/projects/cramersrule/</link>
+      <link>http://localhost:1313/projects/cramersrule/</link>
       <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/projects/cramersrule/</guid>
+      <guid>http://localhost:1313/projects/cramersrule/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>My First Science Fair: Acidity and Temperature</title>
-      <link>https://cochleoid.github.io/projects/firstfair/</link>
+      <link>http://localhost:1313/projects/firstfair/</link>
       <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/projects/firstfair/</guid>
+      <guid>http://localhost:1313/projects/firstfair/</guid>
       <description></description>
       
     </item>

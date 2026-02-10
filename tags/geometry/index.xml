@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geometry on Adrian Hernandez Vega</title>
-    <link>https://cochleoid.github.io/tags/geometry/</link>
+    <link>http://localhost:1313/tags/geometry/</link>
     <description>Recent content in Geometry on Adrian Hernandez Vega</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2025 Adrian</copyright>
-    <lastBuildDate>Sat, 16 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/tags/geometry/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 Adrian</copyright>
+    <lastBuildDate>Sat, 16 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/geometry/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Deriving Curved Surface Area Sections Over a Sphere</title>
-      <link>https://cochleoid.github.io/projects/sphericalsections/</link>
+      <link>http://localhost:1313/projects/sphericalsections/</link>
       <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/projects/sphericalsections/</guid>
+      <guid>http://localhost:1313/projects/sphericalsections/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Representing Polygons through the Roots of Unity</title>
-      <link>https://cochleoid.github.io/projects/rootspolygons/</link>
+      <link>http://localhost:1313/projects/rootspolygons/</link>
       <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/projects/rootspolygons/</guid>
+      <guid>http://localhost:1313/projects/rootspolygons/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>The Three Main Methods for Triangle Area</title>
-      <link>https://cochleoid.github.io/math/threetriangles/</link>
+      <link>http://localhost:1313/math/threetriangles/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/threetriangles/</guid>
+      <guid>http://localhost:1313/math/threetriangles/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>A Triangle&#39;s Orthocenter Given Its Coordinates</title>
-      <link>https://cochleoid.github.io/projects/orthocenterformula/</link>
+      <link>http://localhost:1313/projects/orthocenterformula/</link>
       <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/projects/orthocenterformula/</guid>
+      <guid>http://localhost:1313/projects/orthocenterformula/</guid>
       <description></description>
       
     </item>

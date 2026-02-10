@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Statistics on Adrian Hernandez Vega</title>
-    <link>https://cochleoid.github.io/tags/statistics/</link>
+    <link>http://localhost:1313/tags/statistics/</link>
     <description>Recent content in Statistics on Adrian Hernandez Vega</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2025 Adrian</copyright>
-    <lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 Adrian</copyright>
+    <lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/statistics/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Expected Value with Tables, Binomials, and Areas</title>
-      <link>https://cochleoid.github.io/math/expectedvalue/</link>
+      <link>http://localhost:1313/math/expectedvalue/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/expectedvalue/</guid>
+      <guid>http://localhost:1313/math/expectedvalue/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>My First Science Fair: Acidity and Temperature</title>
-      <link>https://cochleoid.github.io/projects/firstfair/</link>
+      <link>http://localhost:1313/projects/firstfair/</link>
       <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/projects/firstfair/</guid>
+      <guid>http://localhost:1313/projects/firstfair/</guid>
       <description></description>
       
     </item>

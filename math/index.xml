@@ -2,169 +2,169 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maths on Adrian Hernandez Vega</title>
-    <link>https://cochleoid.github.io/math/</link>
+    <link>http://localhost:1313/math/</link>
     <description>Recent content in Maths on Adrian Hernandez Vega</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2025 Adrian</copyright>
-    <lastBuildDate>Sat, 30 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/math/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 Adrian</copyright>
+    <lastBuildDate>Sat, 30 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/math/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Tangent Substitution in Integration</title>
-      <link>https://cochleoid.github.io/math/tansubstitution/</link>
+      <link>http://localhost:1313/math/tansubstitution/</link>
       <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/tansubstitution/</guid>
+      <guid>http://localhost:1313/math/tansubstitution/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Basic Exponential Functions</title>
-      <link>https://cochleoid.github.io/math/basicexponentials/</link>
+      <link>http://localhost:1313/math/basicexponentials/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/basicexponentials/</guid>
+      <guid>http://localhost:1313/math/basicexponentials/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Divisor Arithmetic</title>
-      <link>https://cochleoid.github.io/math/divisorarithmetic/</link>
+      <link>http://localhost:1313/math/divisorarithmetic/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/divisorarithmetic/</guid>
+      <guid>http://localhost:1313/math/divisorarithmetic/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Vectors, Magnitudes and Dot Products</title>
-      <link>https://cochleoid.github.io/math/vectormagnitudes/</link>
+      <link>http://localhost:1313/math/vectormagnitudes/</link>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/vectormagnitudes/</guid>
+      <guid>http://localhost:1313/math/vectormagnitudes/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Deriving Projectile Formulas with Calculus</title>
-      <link>https://cochleoid.github.io/math/projectilecalculus/</link>
+      <link>http://localhost:1313/math/projectilecalculus/</link>
       <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/projectilecalculus/</guid>
+      <guid>http://localhost:1313/math/projectilecalculus/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Vector Summation with Gauss&#39;s Formula</title>
-      <link>https://cochleoid.github.io/math/gaussvector/</link>
+      <link>http://localhost:1313/math/gaussvector/</link>
       <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/gaussvector/</guid>
+      <guid>http://localhost:1313/math/gaussvector/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>The Three Main Methods for Triangle Area</title>
-      <link>https://cochleoid.github.io/math/threetriangles/</link>
+      <link>http://localhost:1313/math/threetriangles/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/threetriangles/</guid>
+      <guid>http://localhost:1313/math/threetriangles/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Expected Value with Tables, Binomials, and Areas</title>
-      <link>https://cochleoid.github.io/math/expectedvalue/</link>
+      <link>http://localhost:1313/math/expectedvalue/</link>
       <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/expectedvalue/</guid>
+      <guid>http://localhost:1313/math/expectedvalue/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Absolute Value Equations</title>
-      <link>https://cochleoid.github.io/math/absolutevalue/</link>
+      <link>http://localhost:1313/math/absolutevalue/</link>
       <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/absolutevalue/</guid>
+      <guid>http://localhost:1313/math/absolutevalue/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Introduction to the Asymptotes of a Rational Function</title>
-      <link>https://cochleoid.github.io/math/rationalasymptotes/</link>
+      <link>http://localhost:1313/math/rationalasymptotes/</link>
       <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/rationalasymptotes/</guid>
+      <guid>http://localhost:1313/math/rationalasymptotes/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Logarithmic Differentiation with Some Examples</title>
-      <link>https://cochleoid.github.io/math/logdiff/</link>
+      <link>http://localhost:1313/math/logdiff/</link>
       <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/logdiff/</guid>
+      <guid>http://localhost:1313/math/logdiff/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Basic Differentiation Rules</title>
-      <link>https://cochleoid.github.io/math/derivativerules/</link>
+      <link>http://localhost:1313/math/derivativerules/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/derivativerules/</guid>
+      <guid>http://localhost:1313/math/derivativerules/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Finding Elementary Inverse Functions</title>
-      <link>https://cochleoid.github.io/math/introinverses/</link>
+      <link>http://localhost:1313/math/introinverses/</link>
       <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/introinverses/</guid>
+      <guid>http://localhost:1313/math/introinverses/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Some Algebraic Factorizations</title>
-      <link>https://cochleoid.github.io/math/algebraicfactor/</link>
+      <link>http://localhost:1313/math/algebraicfactor/</link>
       <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/algebraicfactor/</guid>
+      <guid>http://localhost:1313/math/algebraicfactor/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Circles</title>
-      <link>https://cochleoid.github.io/math/introcircles/</link>
+      <link>http://localhost:1313/math/introcircles/</link>
       <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/introcircles/</guid>
+      <guid>http://localhost:1313/math/introcircles/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Quadratics</title>
-      <link>https://cochleoid.github.io/math/quadratics/</link>
+      <link>http://localhost:1313/math/quadratics/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/math/quadratics/</guid>
+      <guid>http://localhost:1313/math/quadratics/</guid>
       <description></description>
       
     </item>

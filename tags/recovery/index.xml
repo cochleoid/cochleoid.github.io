@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recovery on Adrian Hernandez Vega</title>
-    <link>https://cochleoid.github.io/tags/recovery/</link>
+    <link>http://localhost:1313/tags/recovery/</link>
     <description>Recent content in Recovery on Adrian Hernandez Vega</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2025 Adrian</copyright>
-    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/tags/recovery/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 Adrian</copyright>
+    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/recovery/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>No Kernel? No Problem! A Rescue Mission Told in CLI</title>
-      <link>https://cochleoid.github.io/systems/missing-kernel/</link>
+      <link>http://localhost:1313/systems/missing-kernel/</link>
       <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/systems/missing-kernel/</guid>
+      <guid>http://localhost:1313/systems/missing-kernel/</guid>
       <description></description>
       
     </item>

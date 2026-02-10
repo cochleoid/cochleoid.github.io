@@ -2,39 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Academics on Adrian Hernandez Vega</title>
-    <link>https://cochleoid.github.io/academics/</link>
+    <link>http://localhost:1313/academics/</link>
     <description>Recent content in Academics on Adrian Hernandez Vega</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2025 Adrian</copyright>
-    <lastBuildDate>Sun, 02 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/academics/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 Adrian</copyright>
+    <lastBuildDate>Sun, 02 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/academics/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Transferability of Dual Enrollment Courses</title>
-      <link>https://cochleoid.github.io/academics/dual-transfer/</link>
+      <link>http://localhost:1313/academics/dual-transfer/</link>
       <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/academics/dual-transfer/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Bartow High School Club Directory</title>
-      <link>https://cochleoid.github.io/academics/bhsclubs/</link>
-      <pubDate>Sun, 13 Jul 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://cochleoid.github.io/academics/bhsclubs/</guid>
+      <guid>http://localhost:1313/academics/dual-transfer/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Adrian&#39;s Step by Step Guide on PCPS Dual Enrollment</title>
-      <link>https://cochleoid.github.io/academics/dual-guide/</link>
+      <link>http://localhost:1313/academics/dual-guide/</link>
       <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/academics/dual-guide/</guid>
+      <guid>http://localhost:1313/academics/dual-guide/</guid>
       <description></description>
       
     </item>
