@@ -6,6 +6,7 @@ description: "Exploring geometric properties of roots of unity and their applica
 tags: ["math", "geometry", "roots of unity"]
 ---
 {{< katex >}}
+*Note: this is an excerpt from the ISEF 2025 project.*
 # Introduction
 It is well known that the "roots of unity" \( x^n=1 \) are equally distributed across a circle. Since the angles formed are equal, connecting the endpoints would create a regular polygon. To graph this figure, we must find an expression for the vertices.
 
@@ -149,31 +150,6 @@ Where:
 - \( \mathbf{n}_k \): Unit normal vector
 - \( \mathbf{c}_k \): Centroid coordinates
 
-## Surface Area
-For regular polyhedra with identical faces:
-\[
-SA = F \cdot A_{\text{face}}
-\]
-
-# Applications
-## Electron Configurations
-- Polyhedra vertices model charge repulsion on spheres
-- Symmetric layouts minimize system energy
-- Efficient O(n) generation enables large-scale quantum simulations
-- Predicts stable electron configurations in molecular orbitals
-
-## Crystal Structures 
-- Face-centered packing mimics atomic lattices
-- Regular edges predict bonding angles in crystalline materials
-- Volume formulas estimate material density with high precision
-- Enables prediction of crystal growth patterns
-
-## Shape Morphing
-- Root parameters enable smooth interpolation between polyhedra
-- Preserved face adjacency prevents mesh tearing during transitions
-- Enables smooth CAD model transitions for engineering design
-- Facilitates animated transformations in computer graphics
-
 # Conclusions
 In this project, we explored the properties of the roots of unity and derived key insights:
 
@@ -191,16 +167,6 @@ A &= \tfrac{1}{2}nr^2 \sin\left(\tfrac{2\pi}{n}\right)
   - Developed O(n) linear-time polyhedron generation
   - Implemented Rodrigues' rotations for face generation
   - Derived volume and surface area formulas
-
-- **Applications**:
-  - Quantum chemistry simulations
-  - Crystallographic modeling
-  - CAD morphing algorithms
-
-**Key Innovation**: Unified 2D/3D framework achieves:
-- Computational efficiency surpassing conventional hull algorithms
-- Mathematical continuity from polygons to polyhedra
-- Real-time morphing capabilities for scientific visualization
 
 # References
 1. Beutelspacher, Albrecht. *Projective Geometry*. Cambridge University Press, 1998.  
