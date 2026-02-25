@@ -15,18 +15,18 @@
 
   
   
-    <title>Quadratics &middot; Adrian Hernandez Vega</title>
-    <meta name="title" content="Quadratics &middot; Adrian Hernandez Vega">
+    <title>Five Proofs of Gauss&#39;s Formula for Summing Integers &middot; Adrian Hernandez Vega</title>
+    <meta name="title" content="Five Proofs of Gauss&#39;s Formula for Summing Integers &middot; Adrian Hernandez Vega">
   
 
   
   
-    <meta name="description" content="Solving quadratic equations by various methods, including graphing, factoring, and completing the square.">
+    <meta name="description" content="Showcasing five different proof techniques: combinatorics, pairing, induction, arithmetic series, and quadratic fitting.">
   
   
   
   
-  <link rel="canonical" href="https://cochleoid.github.io/math/quadratics/">
+  <link rel="canonical" href="https://cochleoid.github.io/math/gaussproofs/">
   
 
   
@@ -62,20 +62,20 @@
   
 
   
-  <meta property="og:url" content="https://cochleoid.github.io/math/quadratics/">
+  <meta property="og:url" content="https://cochleoid.github.io/math/gaussproofs/">
   <meta property="og:site_name" content="Adrian Hernandez Vega">
-  <meta property="og:title" content="Quadratics">
-  <meta property="og:description" content="Solving quadratic equations by various methods, including graphing, factoring, and completing the square.">
+  <meta property="og:title" content="Five Proofs of Gauss&#39;s Formula for Summing Integers">
+  <meta property="og:description" content="Showcasing five different proof techniques: combinatorics, pairing, induction, arithmetic series, and quadratic fitting.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="math">
-    <meta property="article:published_time" content="2023-06-11T00:00:00+00:00">
-    <meta property="article:modified_time" content="2023-06-11T00:00:00+00:00">
+    <meta property="article:published_time" content="2023-04-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-04-01T00:00:00+00:00">
 
   
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Quadratics">
-  <meta name="twitter:description" content="Solving quadratic equations by various methods, including graphing, factoring, and completing the square.">
+  <meta name="twitter:title" content="Five Proofs of Gauss&#39;s Formula for Summing Integers">
+  <meta name="twitter:description" content="Showcasing five different proof techniques: combinatorics, pairing, induction, arithmetic series, and quadratic fitting.">
 
   
   
@@ -361,26 +361,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Maths",
-    "name": "Quadratics",
-    "headline": "Quadratics",
-    "description": "Solving quadratic equations by various methods, including graphing, factoring, and completing the square.",
+    "name": "Five Proofs of Gauss\u0027s Formula for Summing Integers",
+    "headline": "Five Proofs of Gauss\u0027s Formula for Summing Integers",
+    "description": "Showcasing five different proof techniques: combinatorics, pairing, induction, arithmetic series, and quadratic fitting.",
     
     "inLanguage": "en",
-    "url" : "https:\/\/cochleoid.github.io\/math\/quadratics\/",
+    "url" : "https:\/\/cochleoid.github.io\/math\/gaussproofs\/",
     "author" : {
       "@type": "Person",
       "name": "Adrian"
     },
     "copyrightYear": "2023",
-    "dateCreated": "2023-06-11T00:00:00\u002b00:00",
-    "datePublished": "2023-06-11T00:00:00\u002b00:00",
+    "dateCreated": "2023-04-01T00:00:00\u002b00:00",
+    "datePublished": "2023-04-01T00:00:00\u002b00:00",
     
-    "dateModified": "2023-06-11T00:00:00\u002b00:00",
+    "dateModified": "2023-04-01T00:00:00\u002b00:00",
     
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "779"
+    "wordCount": "587"
   }]
   </script>
 
@@ -789,7 +789,7 @@
     <header id="single_header" class="mt-5 max-w-prose">
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        Quadratics
+        Five Proofs of Gauss's Formula for Summing Integers
       </h1>
       <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -842,7 +842,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2023-06-11T00:00:00&#43;00:00">11 June 2023</time><span class="px-2 text-primary-500">&middot;</span><span>779 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+      <time datetime="2023-04-01T00:00:00&#43;00:00">1 April 2023</time><span class="px-2 text-primary-500">&middot;</span><span>587 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
     
 
     
@@ -973,202 +973,134 @@
         <div class="article-content max-w-prose mb-20">
           
 
+<p>There are a multitude of ways to prove Gauss’s formula: some elementary, some not so much. This article’s purpose is to derive and prove the famous formula with simple combinatorics, pairing, induction, and more:
+</p>
+$$
+\sum_{k=1}^{n}k=\frac{n(n+1)}{2}
+$$
+<h1 class="relative group">Combinatorics Proof
+    <div id="combinatorics-proof" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#combinatorics-proof" aria-label="Anchor">#</a>
+    </span>
+    
+</h1>
+<p>The sum of the first <em>n</em> natural numbers is equal to the <em>n</em>th triangular number. Let \(T_n\) denote the <em>n</em>th triangular number. The triangular numbers seem to follow a straight path along Pascal’s Triangle, as shown by the bolded below.<br>
+<figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="1034"
+    height="294"
+    src="/math/gaussproofs/image1_hu_b689b1d8d977010f.png"
+    srcset="/math/gaussproofs/image1_hu_b689b1d8d977010f.png 800w, /math/gaussproofs/image1.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/math/gaussproofs/image1.png"></figure>
+</p>
+<p>Proving their relative position inductively is simple. It is obvious that S(1) is true, so S(n+1) follows. Being in the (\(n+2\))th row and the second position, \(T_{n+1}\) would be right below \(T_n\). Since \(T_{n+1}\) is equal to the quantity \(T_{n}+n+1\), and since any element in Pascal’s Triangle is equal to the two above it, the element next to \(T_n\) must be equal to \(n+1\), thus always generating a triangular number.</p>
+<div class="lemma">
+<p><strong>Lemma 1</strong>. *There exists a formula for computing binomial coefficients.
+</p>
+$$
+\binom{n}{k}=\frac{n!}{k!(n-k)!}
+$$<p>
+*</p>
+</div>
+<p>The \(n\)th triangular is in \(\binom{n+1}{2}\). Lemma 1.1 will then lead to the formula for the \(n\)th triangular.
+</p>
+$$
+\begin{aligned}
+& \binom{n+1}{2} = \frac{(n+1)!}{2!(n+1-2)!}\\
+& \implies \frac{(n+1)!}{2(n-1)!}\\
+& \implies \frac{(n-1)!(n)(n+1)}{2(n-1)!}\\
+& \implies \frac{n(n+1)}{2}
+& \end{aligned}
+$$
+<h1 class="relative group">Gauss’s Pairing Proof
+    <div id="gausss-pairing-proof" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#gausss-pairing-proof" aria-label="Anchor">#</a>
+    </span>
+    
+</h1>
+<p>By pairing, it becomes easy to see how the formula works. Begin by listing the addends and then in reverse. Let \(s\) equal the total sum. Proceed by adding vertically-adjacent expressions.<br>
+</p>
+$$
+\begin{aligned}
+&1\hspace{26pt}+2\hspace{26pt}+3\hspace{26pt}+4\hspace{26pt}+5\ldots+n=s\\
+&n+(n-1)+(n-2)+(n-3)+(n-4)\ldots+1=s\\
+&\implies (n+1)+(n+1)+(n+1)...+(n+1)=2s\\
+&\implies n(n+1)=2s\\
+&\implies \frac{n(n+1)}{2}=s
+\end{aligned}
+$$
+<h1 class="relative group">Induction Proof
+    <div id="induction-proof" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#induction-proof" aria-label="Anchor">#</a>
+    </span>
+    
+</h1>
+<p>Induction can only be used to prove; one must already assert that the formula is \(\frac{n(n+1)}{2}\).<br>
+To prove by induction, the statements S(1) and S(n+1) must hold true. Tacitly, the sum of the first number is equal to 1, which satisfies the initial condition. To complete the inductive proof, the following equation must hold true and will be shown to hold as such.
+</p>
+$$
+\begin{aligned}
+& \frac{n(n+1)}{2}+n+1=\frac{(n+1)(n+2)}{2}\\
+& \implies \frac{n^2+n}{2}+\frac{2n+2}{2}=\frac{n^2+3n+2}{2}\\
+& \implies \frac{n^2+3n+2}{2}=\frac{n^2+3n+2}{2}
+\end{aligned}
+$$
+<h1 class="relative group">Arithmetic Proof
+    <div id="arithmetic-proof" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#arithmetic-proof" aria-label="Anchor">#</a>
+    </span>
+    
+</h1>
+<div class="lemma">
+<p><strong>Lemma 2</strong>. <em>The mean of an arithmetic sequence is equal to the mean of the first and last entries.</em></p>
+</div>
+<div class="lemma">
+<p><strong>Lemma 3</strong>. <em>The sum of an arithmetic sequence is equal to the mean multiplied by the amount of entries.</em></p>
+</div>
+<p>This implies that the mean of the first \(n\) numbers is equal to \(\frac{(n+1)}{2}\), as the first term is 1 and the last is \(n\). Multiplying the mean by the amount of terms in the sequence is equal to the sum of the sequence; there are \(n\) terms in the sum of the first \(n\) numbers, so their sum is equal to \(\frac{n(n+1)}{2}\).</p>
 
-<h2 class="relative group">Quadratics
-    <div id="quadratics" class="anchor"></div>
+<h1 class="relative group">Quadratic Proof
+    <div id="quadratic-proof" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#quadratics" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#quadratic-proof" aria-label="Anchor">#</a>
     </span>
     
-</h2>
-
-<h3 class="relative group">Solving by Plotting/Graphing
-    <div id="solving-by-plottinggraphing" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#solving-by-plottinggraphing" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
-<p>To solve the equation \( x^2 + 6x + 9 = 0 \) by graphing, create an xy-table with points. It&rsquo;s advisable to plot at least 5 points, though 3 can suffice. The axis of symmetry, determined by \( \frac{-b}{2a} \), marks the midpoint.</p>
-<table>
-  <thead>
-      <tr>
-          <th>x</th>
-          <th>y</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>-5</td>
-          <td>4</td>
-      </tr>
-      <tr>
-          <td>-4</td>
-          <td>1</td>
-      </tr>
-      <tr>
-          <td>-3</td>
-          <td>0</td>
-      </tr>
-      <tr>
-          <td>-2</td>
-          <td>1</td>
-      </tr>
-      <tr>
-          <td>-1</td>
-          <td>4</td>
-      </tr>
-  </tbody>
-</table>
-<p>The zero is located at \( x = -3 \), which happens to be our axis of symmetry in this case. If the table had not included the solution, we would plot our 5 points, connect them all, and see where the x-intercepts would be.</p>
-
-<h3 class="relative group">Solving by Grouping
-    <div id="solving-by-grouping" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#solving-by-grouping" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
-<p>Take the quadratic \( 5x^2 - 3x - 2 = 0 \). We need to find what multiplies to \( ac \) and adds to \( b \). The two numbers that satisfy these properties in this case are \( -5 \) and \( 2 \). Replace the \( b \) term with these terms that add to \( b \). Imagine a bar dividing the first pair of terms and second pair of terms and factor. After factoring, set both factors equal to zero to find your roots.</p>
-\[
+</h1>
+<p>Let \(f(n)=T_n\), where \(T_n\) is the \(n\)th triangular. We can surmise its degree by checking for the presence of a common difference.<br>
+The sequence follows: \(\{0, 1, 3, 6, 10\ldots\}\). The first differences are \(\{1, 2, 3, 4\ldots \}\). The second differences will always follow \(\{1, 1, 1, 1\ldots \}\) from the differences of consecutive numbers, so \(f(n)\) must be quadratic.</p>
+<div class="lemma">
+<p><strong>Lemma 4</strong>. <em>The \(a\) term of \(f(n)\) is equal to half the second difference; the \(c\) term is equal to \(f(0)\).</em></p>
+</div>
+<p>Following Lemma 7.1, the \(a\) coefficient of \(f(n)\) is \(\frac{1}{2}\), and the \(c\) coefficient is 0, so there is no constant term. To find the coefficient of \(b\), one must substitute given terms. We will use the \(5\)th term of the sequence as an example.
+</p>
+$$
 \begin{aligned}
-5x^2 - 3x - 2 &= 0 \\
-5x^2 - 5x + 2x - 2 &= 0 \\
-5x(x - 1) + 2(x - 1) &= 0 \\
-(5x + 2)(x - 1) &= 0 \\
-x &= -\frac{2}{5},\ 1
+& f(n) = \frac{n^2}{2} + bn + 0\\
+& \implies 10=\frac{4^2}{2} + 4b\\
+& \implies \frac{1}{2}=b\\
+& \implies f(n)=\frac{n^2}{2} + \frac{n}{2}\\
+& \implies f(n)=\frac{n(n+1)}{2}\\
 \end{aligned}
-\]
-<h3 class="relative group">Solving by Completing the Square
-    <div id="solving-by-completing-the-square" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#solving-by-completing-the-square" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
-<p>To complete the square, your \( a \) coefficient must be 1 and your \( c \) term must be on the right side.</p>
-\[
-\begin{aligned}
-8x^2 - 32x - 64 &= 0 \\
-x^2 - 4x - 8 &= 0 \\
-x^2 - 4x &= 8
-\end{aligned}
-\]<p>After this, you must add \( \left(\frac{b}{2}\right)^2 \) to both sides. Then, factor the left-hand side to \( \left(x + \frac{b}{2}\right)^2 \), which is \( (x - 2)^2 \) in this case.</p>
-\[
-\begin{aligned}
-x^2 - 4x + (-2)^2 &= 8 + (-2)^2 \\
-x^2 - 4x + 4 &= 12 \\
-(x - 2)^2 &= 12
-\end{aligned}
-\]<p>The rest is algebra. Don&rsquo;t forget the \( \pm \) when taking the square root to account for the possibility of a second solution.</p>
-\[
-\begin{aligned}
-\sqrt{(x - 2)^2} &= \pm\sqrt{12} \\
-x - 2 &= \pm\sqrt{12} \\
-x &= \pm\sqrt{12} + 2
-\end{aligned}
-\]
-<h3 class="relative group">Solving by the Quadratic Formula
-    <div id="solving-by-the-quadratic-formula" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#solving-by-the-quadratic-formula" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
-<p>The quadratic formula is written below. Substitute your coefficients. We will use the quadratic \( x^2 + 2x + 1 = 0 \) as example.</p>
-\[
-\begin{aligned}
-x &= \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \\
-x &= \frac{-2 \pm \sqrt{4 - 4}}{2} \\
-x &= \frac{-2 \pm \sqrt{0}}{2} \\
-x &= \frac{-2 \pm 0}{2} \\
-x &= \frac{-2}{2} \\
-x &= -1
-\end{aligned}
-\]
-<h3 class="relative group">What is a complex number?
-    <div id="what-is-a-complex-number" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#what-is-a-complex-number" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
-<p>Try solving the equation \( x^2 = -1 \). No matter which method you use, your answer will be undefined. To circumvent this, mathematicians defined a new, special number: \( i = \sqrt{-1} \). To the previous equation, we can now say: \( x = \pm i \). We can scale this new &ldquo;imaginary unit&rdquo; by normal numbers as well: numbers such as \( 4i \) are equally valid.</p>
-<p>We can combine real numbers and imaginary numbers to form a new set of numbers: the complex numbers. These are numbers of the form \( a + bi \), such as \( 2 + 3i \). Try solving \( x^2 + 2x + 1 = 0 \) using the Quadratic Formula.</p>
-
-<h3 class="relative group">Writing Vertex Form from a Table
-    <div id="writing-vertex-form-from-a-table" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#writing-vertex-form-from-a-table" aria-label="Anchor">#</a>
-    </span>
-    
-</h3>
-<table>
-  <thead>
-      <tr>
-          <th>x</th>
-          <th>y</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>-3</td>
-          <td>6</td>
-      </tr>
-      <tr>
-          <td>-2</td>
-          <td>3</td>
-      </tr>
-      <tr>
-          <td>-1</td>
-          <td>2</td>
-      </tr>
-      <tr>
-          <td>0</td>
-          <td>3</td>
-      </tr>
-      <tr>
-          <td>1</td>
-          <td>6</td>
-      </tr>
-  </tbody>
-</table>
-<p>The vertex has the highest or lowest \( y \) value, so our vertex is \( (-1, 2) \). The vertex is located at \( (h, k) \) so we can substitute these numbers into the vertex form formula.</p>
-\[
-\begin{aligned}
-y &= a(x - h)^2 + k \\
-y &= a(x - (-1))^2 + 2 \\
-y &= a(x + 1)^2 + 2
-\end{aligned}
-\]<p>We are still left with an \( a \) coefficient. We can solve for this coefficient by plugging in a non-vertex point for \( x \) and \( y \). Let&rsquo;s choose \( (-3, 6) \).</p>
-\[
-\begin{aligned}
-6 &= a(-3 + 1)^2 + 2 \\
-6 &= a(-2)^2 + 2 \\
-6 &= 4a + 2 \\
-a &= 1
-\end{aligned}
-\]<p>We found our \( a \) coefficient which we can plug in and get our final answer:</p>
-\[
-\begin{aligned}
-y &= 1(x + 1)^2 + 2 \\
-y &= (x + 1)^2 + 2
-\end{aligned}
-\]
+$$
           
           
           
@@ -1195,8 +1127,8 @@ y &= (x + 1)^2 + 2
           type="text/javascript"
           src="/js/page.min.54b6f4371722649edbe871e431d8670d670878c22be8f36e229fe53cc9b786fe25a834def5e6de621f7a3e37b72bc8cd73839aa5ed907ed6cbd45cd3e1b0fa20.js"
           integrity="sha512-VLb0NxciZJ7b6HHkMdhnDWcIeMIr6PNuIp/lPMm3hv4lqDTe9ebeYh96Pje3K8jNc4Oape2QftbL1FzT4bD6IA=="
-          data-oid="views_math/quadratics/index.md"
-          data-oid-likes="likes_math/quadratics/index.md"></script>
+          data-oid="views_math/gaussproofs/index.md"
+          data-oid-likes="likes_math/gaussproofs/index.md"></script>
       
     </section>
 
@@ -1212,32 +1144,19 @@ y &= (x + 1)^2 + 2
       <div class="flex justify-between pt-3">
         <span class="flex flex-col">
           
-            <a
-              class="flex text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-              href="/math/gaussproofs/">
-              <span class="leading-6">
-                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;Five Proofs of Gauss's Formula for Summing Integers
-              </span>
-            </a>
-            
-              <span class="ms-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
-                <time datetime="2023-04-01T00:00:00&#43;00:00">1 April 2023</time>
-              </span>
-            
-          
         </span>
         <span class="flex flex-col items-end">
           
             <a
               class="flex text-right text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-              href="/math/introcircles/">
+              href="/math/quadratics/">
               <span class="leading-6">
-                Circles&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
+                Quadratics&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
               </span>
             </a>
             
               <span class="me-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
-                <time datetime="2023-07-22T00:00:00&#43;00:00">22 July 2023</time>
+                <time datetime="2023-06-11T00:00:00&#43;00:00">11 June 2023</time>
               </span>
             
           
