@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Adrian</copyright>
-    <lastBuildDate>Tue, 24 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/math/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/math/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Proving Gauss&#39;s Formula with the Shoelace Formula</title>
+      <link>https://cochleoid.github.io/math/shoelacegauss/</link>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/math/shoelacegauss/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Solving a Matrix Containing Legendre Floors</title>

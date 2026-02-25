@@ -5,7 +5,6 @@
   class="scroll-smooth"
   data-default-appearance="light"
   data-auto-appearance="true"><head>
-	<meta name="generator" content="Hugo 0.152.2">
   <meta charset="utf-8">
   
     <meta http-equiv="content-language" content="en">
@@ -16,24 +15,18 @@
 
   
   
-    <title>Adrian Hernandez Vega</title>
-    <meta name="title" content="Adrian Hernandez Vega">
+    <title>Proving Gauss&#39;s Formula with the Shoelace Formula &middot; Adrian Hernandez Vega</title>
+    <meta name="title" content="Proving Gauss&#39;s Formula with the Shoelace Formula &middot; Adrian Hernandez Vega">
   
 
   
   
-    <meta name="description" content="Showcasing math, technical writing, and some research projects.">
+    <meta name="description" content="A mathematical derivation of Gauss&#39;s Formula using determinant series and the Shoelace Formula.">
   
   
   
   
-  <link rel="canonical" href="https://cochleoid.github.io/">
-  
-    
-      <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Adrian Hernandez Vega" />
-  
-    
-      <link rel="alternate" type="application/json" href="/index.json" title="Adrian Hernandez Vega" />
+  <link rel="canonical" href="https://cochleoid.github.io/math/shoelacegauss/">
   
 
   
@@ -69,19 +62,20 @@
   
 
   
-  <meta property="og:url" content="https://cochleoid.github.io/">
+  <meta property="og:url" content="https://cochleoid.github.io/math/shoelacegauss/">
   <meta property="og:site_name" content="Adrian Hernandez Vega">
-  <meta property="og:title" content="Adrian Hernandez Vega">
-  <meta property="og:description" content="Showcasing math, technical writing, and some research projects.">
+  <meta property="og:title" content="Proving Gauss&#39;s Formula with the Shoelace Formula">
+  <meta property="og:description" content="A mathematical derivation of Gauss&#39;s Formula using determinant series and the Shoelace Formula.">
   <meta property="og:locale" content="en">
-  <meta property="og:type" content="website">
-    <meta property="og:image" content="https://cochleoid.github.io/featured.png">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="math">
+    <meta property="article:published_time" content="2026-02-25T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-02-25T00:00:00+00:00">
 
   
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://cochleoid.github.io/featured.png">
-  <meta name="twitter:title" content="Adrian Hernandez Vega">
-  <meta name="twitter:description" content="Showcasing math, technical writing, and some research projects.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Proving Gauss&#39;s Formula with the Shoelace Formula">
+  <meta name="twitter:description" content="A mathematical derivation of Gauss&#39;s Formula using determinant series and the Shoelace Formula.">
 
   
   
@@ -92,9 +86,15 @@
     
   
     
-  
+      
     
   
+    
+      
+    
+  
+  
+    
   
 
   
@@ -177,6 +177,145 @@
 
 
 
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/lib/katex/katex.min.aeed31e00db047821b2deca55b28fddf49d5a4e0351850d0aa2662b36ffa6d9f79268751965d7c331ac6d862b68ad6f403dc22ec50769d9b0cb439e967e39ca9.css"
+    integrity="sha512-ru0x4A2wR4IbLeylWyj930nVpOA1GFDQqiZis2/6bZ95JodRll18MxrG2GK2itb0A9wi7FB2nZsMtDnpZ&#43;OcqQ==">
+  
+  
+  
+  <script
+    defer
+    type="text/javascript"
+    src="/js/katex.bundle.2a5e0f220f8881fb35c61f68c2335b1e7b289d5beea86db4b5062b597c5fe4d0240a5cee09cde8709e498fa9bb44eabbe19a359371f9ea1f77e649a4096a3940.js"
+    integrity="sha512-Kl4PIg&#43;Igfs1xh9owjNbHnsonVvuqG20tQYrWXxf5NAkClzuCc3ocJ5Jj6m7ROq74Zo1k3H56h935kmkCWo5QA=="
+    id="katex-render"></script>
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
 
 
 
@@ -218,20 +357,31 @@
 
   
   <script type="application/ld+json">
-  {
+  [{
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "@id": "https:\/\/cochleoid.github.io\/",
-    "name": "Adrian Hernandez Vega",
-    "description": "Showcasing math, technical writing, and some research projects.",
-    "inLanguage": "en",
-    "url": "https:\/\/cochleoid.github.io\/",
+    "@type": "Article",
+    "articleSection": "Maths",
+    "name": "Proving Gauss\u0027s Formula with the Shoelace Formula",
+    "headline": "Proving Gauss\u0027s Formula with the Shoelace Formula",
+    "description": "A mathematical derivation of Gauss\u0027s Formula using determinant series and the Shoelace Formula.",
     
-    "publisher" : {
+    "inLanguage": "en",
+    "url" : "https:\/\/cochleoid.github.io\/math\/shoelacegauss\/",
+    "author" : {
       "@type": "Person",
       "name": "Adrian"
-    }
-  }
+    },
+    "copyrightYear": "2026",
+    "dateCreated": "2026-02-25T00:00:00\u002b00:00",
+    "datePublished": "2026-02-25T00:00:00\u002b00:00",
+    
+    "dateModified": "2026-02-25T00:00:00\u002b00:00",
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "368"
+  }]
   </script>
 
 
@@ -631,172 +781,25 @@
       <main id="main-content" class="grow">
         
   
-  
+  <article>
     
-<article
-  class=" flex flex-col items-center justify-center text-center">
-  <header class="relative px-1 py-1 flex flex-col items-center mb-3">
     
-    <h1 class="text-4xl font-extrabold">
-      Adrian
-    </h1>
+
     
-      <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
-        Welcome to my website. Feel free to look around.
-      </h2>
-    
-    <div class="mt-1 text-2xl">
+    <header id="single_header" class="mt-5 max-w-prose">
       
-  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
-    
-      
-        <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="https://lichess.org/@/Adrian_HV"
-          target="_blank"
-          aria-label="Heart"
-          title="Heart"
-          rel="me noopener noreferrer"
-          ><span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-<path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg></span></span></a
-        >
-      
-    
-      
-        <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="https://pcsb-my.sharepoint.com/:f:/g/personal/adrianh29_mypolkschools_net/Eh3ZOMXAL2tIiv1Konwo0A4BTKlEBM4X5n59zPzEmxFvQQ?e=WzSku2"
-          target="_blank"
-          aria-label="Microsoft"
-          title="Microsoft"
-          rel="me noopener noreferrer"
-          ><span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 32h214.6v214.6H0V32zm233.4 0H448v214.6H233.4V32zM0 265.4h214.6V480H0V265.4zm233.4 0H448V480H233.4V265.4z"/></svg>
-</span></span></a
-        >
-      
-    
-      
-        <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="https://cal.com/cochleoid/1-hour-quick-call"
-          target="_blank"
-          aria-label="Phone"
-          title="Phone"
-          rel="me noopener noreferrer"
-          ><span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-<path fill="currentColor" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg></span></span></a
-        >
-      
-    
-      
-        <a
-          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
-          href="https://www.youtube.com/@AdrianJHV"
-          target="_blank"
-          aria-label="Youtube"
-          title="Youtube"
-          rel="me noopener noreferrer"
-          ><span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
-</span></span></a
-        >
-      
-    
-  </div>
-
-
-    </div>
-  </header>
-  <section class="prose dark:prose-invert w-full"></section>
-</article>
-<section>
-  
-
-
-  
-    
-  
-  <h2 class="mt-8 text-2xl font-extrabold mb-10">Recent</h2>
-
-  
-    
-
-
-
-<section class="space-y-10 w-full">
-  
-    
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-
-
-  
-  
-    
-
-    
-    
-      
-      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Proving Gauss's Formula with the Shoelace Formula
+      </h1>
+      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
-      
-        
-      
-        
-      
-    
 
-    
-    
-      
-      
-    
 
-    
-    
-      
-    
+
+
+
   
-
-
-
-<article class="flex flex-col md:flex-row relative">
   
-  <div class=" mt-3 md:mt-0">
-    <header class="items-center text-start text-xl font-semibold">
-      <a
-        
-          href="/math/shoelacegauss/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          Proving Gauss's Formula with the Shoelace Formula
-          
-        </h2>
-      </a>
-      
-      
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
 
 
 
@@ -856,1274 +859,303 @@
 
 
 
-    </div>
+      </div>
+      
+        
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+    
+    
+<div class="flex author">
+  
+  <div class="place-self-center">
+    
+      <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+        Author
+      </div>
+      <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+        Adrian
+      </div>
+    
+    
+    <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://lichess.org/@/Adrian_HV"
+          target="_blank"
+          aria-label="Heart"
+          title="Heart"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<path fill="currentColor" d="M47.6 300.4L228.3 469.1c7.5 7 17.4 10.9 27.7 10.9s20.2-3.9 27.7-10.9L464.4 300.4c30.4-28.3 47.6-68 47.6-109.5v-5.8c0-69.9-50.5-129.5-119.4-141C347 36.5 300.6 51.4 268 84L256 96 244 84c-32.6-32.6-79-47.5-124.6-39.9C50.5 55.6 0 115.2 0 185.1v5.8c0 41.5 17.2 81.2 47.6 109.5z"/></svg></span></span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://pcsb-my.sharepoint.com/:f:/g/personal/adrianh29_mypolkschools_net/Eh3ZOMXAL2tIiv1Konwo0A4BTKlEBM4X5n59zPzEmxFvQQ?e=WzSku2"
+          target="_blank"
+          aria-label="Microsoft"
+          title="Microsoft"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 32h214.6v214.6H0V32zm233.4 0H448v214.6H233.4V32zM0 265.4h214.6V480H0V265.4zm233.4 0H448V480H233.4V265.4z"/></svg>
+</span></span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://cal.com/cochleoid/1-hour-quick-call"
+          target="_blank"
+          aria-label="Phone"
+          title="Phone"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<path fill="currentColor" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg></span></span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://www.youtube.com/@AdrianJHV"
+          target="_blank"
+          aria-label="Youtube"
+          title="Youtube"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom"><span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+</span></span></a
+        >
+      
     
   </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
+
+</div>
+  </div>
+</div>
 
   
-    
-
-
-
-
-
-
-
 
   
-  
-  
-
-
-
-
-
-
-
 
   
-  
-    
-
-    
-    
-      
-      
-        
-      
-        
-      
-        
-      
-    
-
-    
-    
-      
-      
-    
-
-    
-    
-      
-    
+    <div class="mb-5"></div>
   
 
-
-
-<article class="flex flex-col md:flex-row relative">
-  
-  <div class=" mt-3 md:mt-0">
-    <header class="items-center text-start text-xl font-semibold">
-      <a
-        
-          href="/math/matrixfloors/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          Solving a Matrix Containing Legendre Floors
-          
-        </h2>
-      </a>
-      
       
     </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
+
+    
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+      
+      
+      
       
 
 
-
-
-
-
-
-  
-
-  
-  
-  
-
-  
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2026-02-24T00:00:00&#43;00:00">24 February 2026</time><span class="px-2 text-primary-500">&middot;</span><span>667 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-
-  
-  
-
-
-
-    </div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-  
-    
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-
-
-  
-  
-    
-
-    
-    
-      
-      
+      <div class="min-w-0 min-h-0 max-w-fit">
         
-      
-        
-      
-        
-      
-    
 
-    
-    
-      
-      
-    
-
-    
-    
-      
-    
-  
-
-
-
-<article class="flex flex-col md:flex-row relative">
-  
-  <div class=" mt-3 md:mt-0">
-    <header class="items-center text-start text-xl font-semibold">
-      <a
-        
-          href="/math/tansubstitution/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          Tangent Substitution in Integration
+        <div class="article-content max-w-prose mb-20">
           
-        </h2>
-      </a>
-      
-      
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
 
 
-
-
-
-
-
-  
-
-  
-  
-  
-
-  
-  
+<h1 class="relative group">Shoelace Proof
+    <div id="shoelace-proof" class="anchor"></div>
     
-  
-
-  
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#shoelace-proof" aria-label="Anchor">#</a>
+    </span>
     
-  
+</h1>
+<div class="theorem">
+<p><strong>Theorem 1</strong>. The area of any polygon that does not self-intersect can be found via the Shoelace Formula. Bars denote a determinant.
+</p>
+$$
+A=\frac{1}{2}  \left| {\begin{matrix}x_1 & x_2 & \ldots & x_n & x_1\\y_1 & y_2 & \ldots & y_n & y_1 \end{matrix}} \right|
+$$</div>
+<p>The sum of the first \(n\) naturals is an area problem in disguise. The problem can be rephrased to find the area of the figure below:</p>
+<p><figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="auto"
+    alt=""
+    width="649"
+    height="479"
+    src="/math/shoelacegauss/image1.png"
+    srcset="/math/shoelacegauss/image1.png 800w, /math/shoelacegauss/image1.png 1280w"
+    sizes="(min-width: 768px) 50vw, 65vw"
+    data-zoom-src="/math/shoelacegauss/image1.png"></figure>
+</p>
+<p>It is easy to see that the points of the staircase-like polygon can be expressed in terms of \(n\). Therefore the area can be expressed in terms of the Shoelace Formula.
+</p>
+$$
+T_n=\frac{1}{2}  \left| {\begin{matrix}0&0&1&1&2&\ldots&n-1&n&n&0\\0&1&1&2&2&\ldots&n&n&0&0 \end{matrix}} \right|
+$$<p>
+</p>
+$$
+= \frac{1}{2} \left( \left| \begin{vmatrix}
+ 0&0  \\
+ 0&1
+\end{vmatrix} +\begin{vmatrix}
+ 0&1  \\
+ 1&1
+\end{vmatrix} +\begin{vmatrix}
+ 1&1  \\
+ 1&2
+\end{vmatrix}+\begin{vmatrix}
+ 1&2  \\
+ 2&2
+\end{vmatrix}+\begin{vmatrix}
+ 2&2  \\
+ 2&3
+\end{vmatrix} + \ldots +
+\begin{vmatrix}
+ n-1&n-1  \\
+ n-1&n
+\end{vmatrix}
++\begin{vmatrix}
+ n-1&n  \\
+ n&n
+\end{vmatrix}
++
+\begin{vmatrix}
+ n&n  \\
+ n&0
+\end{vmatrix}
++
+\begin{vmatrix}
+ n&0  \\
+ 0&0
+\end{vmatrix} \right| \right)
+$$<p>Reduce the last two determinants:
+</p>
+$$
+= \frac{1}{2} \left( \begin{vmatrix}
+ 0&0  \\
+ 0&1
+\end{vmatrix} +\begin{vmatrix}
+ 0&1  \\
+ 1&1
+\end{vmatrix} +\begin{vmatrix}
+ 1&1  \\
+ 1&2
+\end{vmatrix}+\begin{vmatrix}
+ 1&2  \\
+ 2&2
+\end{vmatrix}+\begin{vmatrix}
+ 2&2  \\
+ 2&3
+\end{vmatrix} + \ldots +
+\begin{vmatrix}
+ n-1&n-1  \\
+ n-1&n
+\end{vmatrix}
++\begin{vmatrix}
+ n-1&n  \\
+ n&n
+\end{vmatrix}
+-n^2 \right)
+$$<p>
+Notice how every matrix in an odd position is just an increment of the first one; similarly, every matrix in an even position is an increment of the second one.</p>
+<div>
+$$
+\begin{aligned}
+& \frac{1}{2} \left( \sum_{j=0}^{n-1} \begin{vmatrix} j & j \\ j & j+1 \end{vmatrix} + \sum_{j=0}^{n-1} \begin{vmatrix} j & j+1 \\ j+1 & j+1 \end{vmatrix} -n^2 \right) \\
+& = \frac{1}{2} \left( \sum_{j=0}^{n-1} \left( \begin{vmatrix} j & j \\ j & j+1 \end{vmatrix} + \begin{vmatrix} j & j+1 \\ j+1 & j+1 \end{vmatrix} \right) - n^2 \right) \\
+& = \frac{1}{2} \left( \sum_{j=0}^{n-1} \left[ j(j+1) - j^2 + j(j+1) - (j+1)^2 \right] - n^2 \right) \\
+& = \frac{1}{2} \left( \sum_{j=0}^{n-1} [ -1 ] - n^2 \right) \\
+& = \frac{1}{2} ( -n - n^2 ) \\
+& \implies \boxed{T_n = \frac{n(n+1)}{2}}
+\end{aligned}
+$$
+</div>
+<p>Since the Shoelace Formula represents oriented area, we are free to take the absolute value for geometric area.</p>
 
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2025-08-30T00:00:00&#43;00:00">30 August 2025</time><span class="px-2 text-primary-500">&middot;</span><span>352 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-
-  
-  
-
-
-
-    </div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-  
-    
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-
-
-  
-  
-    
-
-    
-    
-      
-      
-        
-      
-        
-      
-        
-      
-    
-
-    
-    
-      
-      
-    
-
-    
-    
-      
-    
-  
-
-
-
-<article class="flex flex-col md:flex-row relative">
-  
-  <div class=" mt-3 md:mt-0">
-    <header class="items-center text-start text-xl font-semibold">
-      <a
-        
-          href="/math/basicexponentials/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          Basic Exponential Functions
           
-        </h2>
-      </a>
-      
-      
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-
-  
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2025-07-11T00:00:00&#43;00:00">11 July 2025</time><span class="px-2 text-primary-500">&middot;</span><span>524 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-
-  
-  
-
-
-
-    </div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-  
-    
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-
-
-  
-  
-    
-
-    
-    
-      
-      
-        
-      
-        
-      
-        
-      
-    
-
-    
-    
-      
-      
-    
-
-    
-    
-      
-    
-  
-
-
-
-<article class="flex flex-col md:flex-row relative">
-  
-  <div class=" mt-3 md:mt-0">
-    <header class="items-center text-start text-xl font-semibold">
-      <a
-        
-          href="/math/divisorarithmetic/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          Divisor Arithmetic
           
-        </h2>
-      </a>
-      
-      
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-
-  
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2025-07-11T00:00:00&#43;00:00">11 July 2025</time><span class="px-2 text-primary-500">&middot;</span><span>456 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-
-  
-  
-
-
-
-    </div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-  
-    
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-
-
-  
-  
-    
-
-    
-    
-      
-      
-        
-      
-        
-      
-        
-      
-    
-
-    
-    
-      
-      
-    
-
-    
-    
-      
-    
-  
-
-
-
-<article class="flex flex-col md:flex-row relative">
-  
-  <div class=" mt-3 md:mt-0">
-    <header class="items-center text-start text-xl font-semibold">
-      <a
-        
-          href="/math/vectormagnitudes/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          Vectors, Magnitudes and Dot Products
           
-        </h2>
-      </a>
-      
-      
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
+        </div>
+        
+        
 
+        
 
+        
 
+      </div>
 
-
-
-
-  
-
-  
-  
-  
-
-  
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2025-07-11T00:00:00&#43;00:00">11 July 2025</time><span class="px-2 text-primary-500">&middot;</span><span>718 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-
-  
-  
-
-
-
-    </div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-  
-    
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-
-
-  
-  
-    
-
-    
-    
       
       
         
-      
         
-      
-        
-      
-    
-
-    
-    
-      
-      
-    
-
-    
-    
-      
-    
-  
-
-
-
-<article class="flex flex-col md:flex-row relative">
-  
-  <div class=" mt-3 md:mt-0">
-    <header class="items-center text-start text-xl font-semibold">
-      <a
-        
-          href="/math/projectilecalculus/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          Deriving Projectile Formulas with Calculus
           
-        </h2>
-      </a>
-      
-      
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-
-  
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2025-06-21T00:00:00&#43;00:00">21 June 2025</time><span class="px-2 text-primary-500">&middot;</span><span>418 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-
-  
-  
-
-
-
-    </div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-  
-    
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-
-
-  
-  
-    
-
-    
-    
-      
-      
-        
-      
-        
-      
-        
-      
-    
-
-    
-    
-      
-      
-    
-
-    
-    
-      
-    
-  
-
-
-
-<article class="flex flex-col md:flex-row relative">
-  
-  <div class=" mt-3 md:mt-0">
-    <header class="items-center text-start text-xl font-semibold">
-      <a
-        
-          href="/math/gaussvector/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          Vector Summation with Gauss's Formula
           
-        </h2>
-      </a>
-      
-      
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-
-  
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2025-06-11T00:00:00&#43;00:00">11 June 2025</time><span class="px-2 text-primary-500">&middot;</span><span>379 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-
-  
-  
-
-
-
-    </div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-  
-    
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-
-
-  
-  
-    
-
-    
-    
-      
-      
         
-      
         
-      
         
+        <script
+          type="text/javascript"
+          src="/js/page.min.54b6f4371722649edbe871e431d8670d670878c22be8f36e229fe53cc9b786fe25a834def5e6de621f7a3e37b72bc8cd73839aa5ed907ed6cbd45cd3e1b0fa20.js"
+          integrity="sha512-VLb0NxciZJ7b6HHkMdhnDWcIeMIr6PNuIp/lPMm3hv4lqDTe9ebeYh96Pje3K8jNc4Oape2QftbL1FzT4bD6IA=="
+          data-oid="views_math/shoelacegauss/index.md"
+          data-oid-likes="likes_math/shoelacegauss/index.md"></script>
       
-    
+    </section>
 
     
-    
+    <footer class="pt-8 max-w-prose print:hidden">
       
-      
-    
-
-    
-    
-      
-    
   
-
-
-
-<article class="flex flex-col md:flex-row relative">
-  
-  <div class=" mt-3 md:mt-0">
-    <header class="items-center text-start text-xl font-semibold">
-      <a
-        
-          href="/math/threetriangles/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          The Three Main Methods for Triangle Area
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+      <div class="flex justify-between pt-3">
+        <span class="flex flex-col">
           
-        </h2>
-      </a>
-      
-      
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-
-  
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2025-01-15T00:00:00&#43;00:00">15 January 2025</time><span class="px-2 text-primary-500">&middot;</span><span>310 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-
-  
-  
-
-
-
-    </div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-  
-    
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-
-
-
-  
-  
-    
-
-    
-    
-      
-      
-        
-      
-        
-      
-        
-      
-    
-
-    
-    
-      
-      
-    
-
-    
-    
-      
-    
-  
-
-
-
-<article class="flex flex-col md:flex-row relative">
-  
-  <div class=" mt-3 md:mt-0">
-    <header class="items-center text-start text-xl font-semibold">
-      <a
-        
-          href="/math/expectedvalue/"
-        
-        class="not-prose before:absolute before:inset-0 decoration-primary-500 dark:text-neutral text-xl font-bold text-neutral-800 hover:underline hover:underline-offset-2">
-        <h2>
-          Expected Value with Tables, Binomials, and Areas
+            <a
+              class="flex text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+              href="/math/matrixfloors/">
+              <span class="leading-6">
+                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;Solving a Matrix Containing Legendre Floors
+              </span>
+            </a>
+            
+              <span class="ms-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
+                <time datetime="2026-02-24T00:00:00&#43;00:00">24 February 2026</time>
+              </span>
+            
           
-        </h2>
-      </a>
-      
-      
-    </header>
-    <div class="text-sm text-neutral-500 dark:text-neutral-400">
-      
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-
-  
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-    
-  
-
-  
-    
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-  <div class="flex flex-row flex-wrap items-center">
-    
-    
-      <time datetime="2024-12-18T00:00:00&#43;00:00">18 December 2024</time><span class="px-2 text-primary-500">&middot;</span><span>583 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
-    
-
-    
-    
-  </div>
-
-  
-
-  
-  
-
-  
-  
-
-
-
+        </span>
+        <span class="flex flex-col items-end">
+          
+        </span>
+      </div>
     </div>
-    
-  </div>
-  <div class="px-6 pt-4 pb-2"></div>
-</article>
-
-  
-</section>
-
-  
-
   
 
 
-</section>
-
-  
+      
+    </footer>
+  </article>
 
         
 
