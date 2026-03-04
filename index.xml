@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Adrian</copyright>
-    <lastBuildDate>Wed, 25 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Closed Cartesian Form for Polygon Envelopes</title>
+      <link>https://cochleoid.github.io/projects/rootsofunityenvelopes/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/projects/rootsofunityenvelopes/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Proving Gauss&#39;s Formula with the Shoelace Formula</title>
