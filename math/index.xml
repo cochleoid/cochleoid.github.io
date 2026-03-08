@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Adrian</copyright>
-    <lastBuildDate>Wed, 25 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/math/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/math/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Problems and Solutions for Local Mu Alpha Theta 2023-2026</title>
+      <link>https://cochleoid.github.io/math/pastmaosolutions/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/math/pastmaosolutions/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Proving Gauss&#39;s Formula with the Shoelace Formula</title>
