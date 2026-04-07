@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Adrian Hernandez Vega</title>
+    <link>https://cochleoid.github.io/projects/</link>
+    <description>Recent content in Projects on Adrian Hernandez Vega</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Adrian</copyright>
+    <lastBuildDate>Tue, 07 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Mapping Between Geometric, Hypergeometric, and Higher-Order Functions</title>
+      <link>https://cochleoid.github.io/projects/hypergeometricmapping/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/projects/hypergeometricmapping/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Fractional Gamma Iterations: Extending the Vigneras Hierarchy</title>
+      <link>https://cochleoid.github.io/projects/fractionalvigneras/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/projects/fractionalvigneras/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Closed Cartesian Form for Polygon Envelopes</title>
+      <link>https://cochleoid.github.io/projects/rootsofunityenvelopes/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/projects/rootsofunityenvelopes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Deriving Curved Surface Area Sections Over a Sphere</title>
+      <link>https://cochleoid.github.io/projects/sphericalsections/</link>
+      <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/projects/sphericalsections/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Representing Polygons through the Roots of Unity</title>
+      <link>https://cochleoid.github.io/projects/rootspolygons/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/projects/rootspolygons/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A Triangle&#39;s Orthocenter Given Its Coordinates</title>
+      <link>https://cochleoid.github.io/projects/orthocenterformula/</link>
+      <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/projects/orthocenterformula/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Cramer&#39;s Rule in R2</title>
+      <link>https://cochleoid.github.io/projects/cramersrule/</link>
+      <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/projects/cramersrule/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>My First Science Fair: Acidity and Temperature</title>
+      <link>https://cochleoid.github.io/projects/firstfair/</link>
+      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/projects/firstfair/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
