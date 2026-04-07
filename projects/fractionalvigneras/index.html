@@ -380,7 +380,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "1741"
+    "wordCount": "1388"
   }]
   </script>
 
@@ -842,7 +842,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-04-02T00:00:00&#43;00:00">2 April 2026</time><span class="px-2 text-primary-500">&middot;</span><span>1741 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">9 mins</span>
+      <time datetime="2026-04-02T00:00:00&#43;00:00">2 April 2026</time><span class="px-2 text-primary-500">&middot;</span><span>1388 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">7 mins</span>
     
 
     
@@ -1022,131 +1022,6 @@ $$</div>
 <div class="definition">
 <p><strong>Definition 6</strong> (Logarithmic Profile). Let the Logarithmic Profile (Log-Profile) be the complexity class of \(f(x)\) under \(\Theta (\ln f(x))\).</p>
 </div>
-
-<h1 class="relative group">Bases
-    <div id="bases" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#bases" aria-label="Anchor">#</a>
-    </span>
-    
-</h1>
-<p>As a start, we can observe the initial dimensional growth in partition functions:
-</p>
-$$
-\underbrace{\prod_{n=1}^{\infty} \frac{1}{1-q^n}}_{\mathcal{G}_1 \text{ (Geometric Line)}}
-\quad\xrightarrow{q}\quad
-\underbrace{\prod_{n=1}^{\infty} \left(\frac{1}{1-q^n}\right)^n}_{\mathcal{G}_2 \text{ (Plane)}}
-$$<p>We will define the Geometric and Hypergeometric functions to be the base cases of the hierarchy, \(\mathcal{Y}_1\) and \(\mathcal{Y}_2\).</p>
-<table>
-  <thead>
-      <tr>
-          <th style="text-align: center">Hierarchy Level</th>
-          <th style="text-align: center">Function Type</th>
-          <th style="text-align: center">Form</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td style="text-align: center">\(\mathcal{Y}_1\)</td>
-          <td style="text-align: center">Geometric</td>
-          <td style="text-align: center">\(a_{n}=a_{0}\left(r^{n-1}\right)\)</td>
-      </tr>
-      <tr>
-          <td style="text-align: center">\(\mathcal{Y}_2\)</td>
-          <td style="text-align: center">Hypergeometric</td>
-          <td style="text-align: center">\(a_{n}=a_{0}\prod_{j=0}^{n-1}R\left(j\right)\)</td>
-      </tr>
-  </tbody>
-</table>
-<p>Function case comparison. Data Table created by finalist.</p>
-
-<h1 class="relative group">Ackermann Complexity
-    <div id="ackermann-complexity" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#ackermann-complexity" aria-label="Anchor">#</a>
-    </span>
-    
-</h1>
-<p>We can connect our bases’ ratio generators to the Ackermann sequence for hyperoperations:</p>
-<ul>
-<li>
-<p>\(A_2\) - Additive Ratio Growth \(\mathcal{Y}_1\)</p>
-</li>
-<li>
-<p>\(A_3\) - Multiplicative Ratio Growth \(\mathcal{Y}_2\)</p>
-</li>
-<li>
-<p>\(A_4\) - Exponential Ratio Growth \(\mathcal{Y}_3\)</p>
-</li>
-<li>
-<p>\(A_5\) - Tetration Ratio Growth \(\mathcal{Y}_4\)</p>
-</li>
-<li>
-<p>\(\vdots\)</p>
-</li>
-<li>
-<p>\(A_n\) - Growth \(\mathcal{Y}_{n-1}\)</p>
-</li>
-</ul>
-<p>The hyperoperation sequence forms a natural connection to the current hierarchy, as geometric functions grow according to a linear \(r\) encompassed by &ldquo;additive ratio growth,&rdquo; while hypergeometric ratios grow according to a factorial (multiplicative growth). To derive \(\mathcal{Y}_3,\) we search for a function family whose ratios grow exponentially: the \(\mathbf{q-series}\).</p>
-$$
-\boxed{(a;q)_n = \prod_{k=0}^{n-1} (1-aq^k)}
-$$
-<h1 class="relative group">Operator
-    <div id="operator" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#operator" aria-label="Anchor">#</a>
-    </span>
-    
-</h1>
-<p>We will define the operator \(\varphi\) to be the transform from \(\mathcal{Y}_n\) to the \(\mathcal{Y}_{n+1}\) Similarly, \(\varphi^{-1}\) will transform \(\mathcal{Y}_n\) to \(\mathcal{Y}_{n-1}\).</p>
-$$
-\begin{matrix}
-\mathcal{Y}_n & \stackrel{\varphi}{\longrightarrow} & \mathcal{Y}_{n+1} \\
-\uparrow^{\varphi^{-1}} & & \downarrow^{\varphi} \\
-\mathcal{Y}_{n+1} & \stackrel{\varphi^{-1}}{\longleftarrow} & \mathcal{Y}_{n+2}
-\end{matrix}
-$$<p>If we want to transform a function in our hierarchy, we can perform the following:</p>
-$$
-\boxed{\mathcal{Y}_{n+1} = a_0 \cdot \prod_{j=0}^{n-1}\varphi(R\left(j\right))}
-$$
-<h1 class="relative group">Combinatorics
-    <div id="combinatorics" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#combinatorics" aria-label="Anchor">#</a>
-    </span>
-    
-</h1>
-<div class="theorem">
-<p><strong>Theorem 7</strong> (Bounded Box Partitions). *MacMahon (1896) proved that the number of subset plane partitions of a bounded \(r\times s \times t\) box is given by:
-</p>
-$$
-\prod_{i=1}^{r}\prod_{j=1}^{s}\frac{i+j+t-1}{i+j-1}
-$$</div>
-<p>We can express the formula in general hierarchy form using the following identity:</p>
-<div class="identity*">
-<p><strong>Identity 1</strong> (Gamma Decomposition of a Product).
-</p>
-$$
-\prod_{k=1}^{s}(x+k) = \frac{\Gamma(x+s+1)}{\Gamma(x+1)}
-$$</div>
-<p>We can group \(j\) outside of the sum for both the numerator and the denominator to apply the identity:
-</p>
-$$
-\begin{aligned}
-& \prod_{i=1}^{r}\prod_{j=1}^{s}\frac{i+j+t-1}{i+j-1}\\
-& = \prod_{i=1}^{r}\left(\prod_{j=1}^{s}\frac{\left(i+t-1\right)+j}{\left(i-1\right)+j}\right)\\
-& = \boxed{\prod_{i=1}^{r} \frac{\Gamma\left(i+t+s\right)\Gamma\left(i\right)}{\Gamma\left(i+t\right)\Gamma\left(i+s\right)}}
-\end{aligned}
-$$<p>Recalling our general hierarchy form, the inner product would simply be \(R(n)\). Since \(R(n)\) is composed of nested Gamma terms, \(N(r,s,t)\) must be in \(\mathcal{Y}_3.\) The formula that calculates partitions in 2D space is itself \(\mathcal{Y}_2\).</p>
 
 <h1 class="relative group">Formal Classification
     <div id="formal-classification" class="anchor"></div>
