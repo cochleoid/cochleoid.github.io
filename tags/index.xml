@@ -7,14 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Adrian</copyright>
-    <lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Chemistry</title>
-      <link>https://cochleoid.github.io/tags/chemistry/</link>
-      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <title>“Clep”</title>
+      <link>https://cochleoid.github.io/tags/clep/</link>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://cochleoid.github.io/tags/chemistry/</guid>
+      <guid>https://cochleoid.github.io/tags/clep/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Dualenrollment</title>
+      <link>https://cochleoid.github.io/tags/dualenrollment/</link>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/tags/dualenrollment/</guid>
       <description></description>
       
     </item>
@@ -22,9 +32,19 @@
     <item>
       <title>School</title>
       <link>https://cochleoid.github.io/tags/school/</link>
-      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
       
       <guid>https://cochleoid.github.io/tags/school/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Chemistry</title>
+      <link>https://cochleoid.github.io/tags/chemistry/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/tags/chemistry/</guid>
       <description></description>
       
     </item>
@@ -335,16 +355,6 @@
       <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
       
       <guid>https://cochleoid.github.io/tags/summation/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Dualenrollment</title>
-      <link>https://cochleoid.github.io/tags/dualenrollment/</link>
-      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://cochleoid.github.io/tags/dualenrollment/</guid>
       <description></description>
       
     </item>
