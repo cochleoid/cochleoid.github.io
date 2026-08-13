@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 Adrian</copyright>
-    <lastBuildDate>Sat, 06 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Inverse Radical Sums</title>
+      <link>https://cochleoid.github.io/projects/inverseradicalsums/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/projects/inverseradicalsums/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Fractional Members of the Vigneras Multiple Gamma Hierarchy</title>

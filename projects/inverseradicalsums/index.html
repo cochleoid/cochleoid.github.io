@@ -15,18 +15,18 @@
 
   
   
-    <title>Fractional Members of the Vigneras Multiple Gamma Hierarchy &middot; Adrian Hernandez Vega</title>
-    <meta name="title" content="Fractional Members of the Vigneras Multiple Gamma Hierarchy &middot; Adrian Hernandez Vega">
+    <title>Inverse Radical Sums &middot; Adrian Hernandez Vega</title>
+    <meta name="title" content="Inverse Radical Sums &middot; Adrian Hernandez Vega">
   
 
   
   
-    <meta name="description" content="Astymptotics and integral form for fractional members, extending the 1979 hierarchy.">
+    <meta name="description" content="A neat application of bounded integration to solve a finite radical summation problem.">
   
   
   
   
-  <link rel="canonical" href="https://cochleoid.github.io/projects/fractionalvigneras/">
+  <link rel="canonical" href="https://cochleoid.github.io/projects/inverseradicalsums/">
   
 
   
@@ -62,20 +62,20 @@
   
 
   
-  <meta property="og:url" content="https://cochleoid.github.io/projects/fractionalvigneras/">
+  <meta property="og:url" content="https://cochleoid.github.io/projects/inverseradicalsums/">
 	<meta property="og:site_name" content="Adrian Hernandez Vega">
-	<meta property="og:title" content="Fractional Members of the Vigneras Multiple Gamma Hierarchy">
-	<meta property="og:description" content="Astymptotics and integral form for fractional members, extending the 1979 hierarchy.">
+	<meta property="og:title" content="Inverse Radical Sums">
+	<meta property="og:description" content="A neat application of bounded integration to solve a finite radical summation problem.">
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
 		<meta property="article:section" content="projects">
-		<meta property="article:published_time" content="2026-06-06T00:00:00+00:00">
-		<meta property="article:modified_time" content="2026-06-06T00:00:00+00:00">
+		<meta property="article:published_time" content="2026-08-13T00:00:00+00:00">
+		<meta property="article:modified_time" content="2026-08-13T00:00:00+00:00">
 
   
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="Fractional Members of the Vigneras Multiple Gamma Hierarchy">
-	<meta name="twitter:description" content="Astymptotics and integral form for fractional members, extending the 1979 hierarchy.">
+	<meta name="twitter:title" content="Inverse Radical Sums">
+	<meta name="twitter:description" content="A neat application of bounded integration to solve a finite radical summation problem.">
 
   
   
@@ -361,26 +361,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Projects",
-    "name": "Fractional Members of the Vigneras Multiple Gamma Hierarchy",
-    "headline": "Fractional Members of the Vigneras Multiple Gamma Hierarchy",
-    "description": "Astymptotics and integral form for fractional members, extending the 1979 hierarchy.",
+    "name": "Inverse Radical Sums",
+    "headline": "Inverse Radical Sums",
+    "description": "A neat application of bounded integration to solve a finite radical summation problem.",
     
     "inLanguage": "en",
-    "url" : "https:\/\/cochleoid.github.io\/projects\/fractionalvigneras\/",
+    "url" : "https:\/\/cochleoid.github.io\/projects\/inverseradicalsums\/",
     "author" : {
       "@type": "Person",
       "name": "Adrian"
     },
     "copyrightYear": "2026",
-    "dateCreated": "2026-06-06T00:00:00\u002b00:00",
-    "datePublished": "2026-06-06T00:00:00\u002b00:00",
+    "dateCreated": "2026-08-13T00:00:00\u002b00:00",
+    "datePublished": "2026-08-13T00:00:00\u002b00:00",
     
-    "dateModified": "2026-06-06T00:00:00\u002b00:00",
+    "dateModified": "2026-08-13T00:00:00\u002b00:00",
     
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "884"
+    "wordCount": "222"
   }]
   </script>
 
@@ -789,7 +789,7 @@
     <header id="single_header" class="mt-5 max-w-prose">
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        Fractional Members of the Vigneras Multiple Gamma Hierarchy
+        Inverse Radical Sums
       </h1>
       <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -842,7 +842,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-06-06T00:00:00&#43;00:00">6 June 2026</time><span class="px-2 text-primary-500">&middot;</span><span>884 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+      <time datetime="2026-08-13T00:00:00&#43;00:00">13 August 2026</time><span class="px-2 text-primary-500">&middot;</span><span>222 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
     
 
     
@@ -973,232 +973,85 @@
         <div class="article-content max-w-prose mb-20">
           
 
+<p>Original problem by reddit. Solution and extension by Adrian Hernandez Vega</p>
 
-<h1 class="relative group">Abstract
-    <div id="abstract" class="anchor"></div>
+<h1 class="relative group">Original Problem
+    <div id="original-problem" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#abstract" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#original-problem" aria-label="Anchor">#</a>
     </span>
     
 </h1>
-<p>Vigneras (1979) proved the existence and recursive properties of the Multi Gamma Hierarchy, as well as a general version of the Bohr-Mollerup theorem for discrete cases. In this project, we extend the hierarchy to fractional members, proving their existence and asymptotic behavior with the Riemann-Liouville integral. Furthermore, we derive closed expressions through differentiation of the Hurwitz zeta function, showing they satisfy the Bohr-Mollerup theorem for continuous cases as well. This completes the hierarchy for non-negative fractional indices, while opening the way for further study in complex-valued indices.</p>
+<p>Consider:
+</p>
+$$
+S = \frac{1}{\sqrt{1}+\sqrt{3}}+\frac{1}{\sqrt{5}+\sqrt{7}}+\frac{1}{\sqrt{9}+\sqrt{11}}+...\frac{1}{\sqrt{9997}+\sqrt{9999}}
+$$<p>Is \(S\) less than or greater than \(24\)?</p>
 
-<h1 class="relative group">Definitions
-    <div id="definitions" class="anchor"></div>
+<h1 class="relative group">Solution 1: Integration Solution
+    <div id="solution-1-integration-solution" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#definitions" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#solution-1-integration-solution" aria-label="Anchor">#</a>
     </span>
     
 </h1>
-<div class="definition">
-<p><strong>Definition 1</strong> (Gamma Function). <em>The gamma function is the analytic continuation of the factorial, uniquely characterized by the Bohr-Mollerup Criteria: recurrence through \(\Gamma (z)=z\Gamma (z-1)\), log-convexity, and \(\Gamma (1)=1\).</em></p>
-</div>
-<div class="definition">
-<p><strong>Definition 2</strong> (Axioms of the Vignéras Hierarchy). <em>Each function in the Vignéras hierarchy is uniquely and recursively characterized by the following three requirements:</em></p>
-<ul>
-<li>
-<p><em><strong>Functional Equation:</strong> \(G_n (z+1) = G_{n-1}(z) G_n(z) \forall z>0\)</em></p>
-</li>
-<li>
-<p><em><strong>Normalization:</strong> \(G_n(1) = 1, \forall n \geq 1\)</em></p>
-</li>
-<li>
-<p><em><strong>Positive Derivative:</strong> \(D^{n+1} \log G_n(z+1) \geq 0, \forall z\geq 0\).</em></p>
-</li>
-</ul>
-</div>
-<div class="definition">
-<p><strong>Definition 3</strong> (Big Theta \(\Theta\)). *A function is said to be in \(\Theta(g(n))\) if and only if there exist positive constants such that:
-</p>
+<p>Observe that the sequences under the radicals are formed by \(4n-3\) and \(4n-1\). We set the bounds to be from \(1\) to \(2500\).</p>
 $$
-0 \leq c_1 g(n) \leq f(n) \leq c_2 g(n)
-$$</div>
-<div class="definition">
-<p><strong>Definition 4</strong> (Hankel Contour Integral). <em>A Hankel Contour Integral \(\oint _H f(z) dz\) evaluates \(f(z)\) around a contour \(H\) from \(-\varepsilon, \infty\) to \(\infty, \varepsilon\).</em></p>
-
-<h1 class="relative group">Member Asymptotics
-    <div id="member-asymptotics" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#member-asymptotics" aria-label="Anchor">#</a>
-    </span>
-    
-</h1>
-<div class="theorem">
-<p><strong>Theorem 5</strong> (Leading Asymptotic of the Vignéras Multi-Gamma Functions). <em>The Leading Asymptotic of the \(\log G_n(x)\) has complexity \(\Theta(x^n \log x)\).</em></p>
-</div>
-<div class="proof">
-<p><em>Proof.</em> We proceed by way of mathematical induction, showing the base case (\(n=1\)) and then proving for general \(n\) with \(n-1\) as inductive hypothesis.<br>
-<strong>Base Step: \(n=1\)</strong></p>
-<p>Gamma is defined to be the first case of the Vignéras hierarchy; using Stirling’s approximation and \(\Gamma(x) = (x-1)!\),
-</p>
-$$
-\Gamma(x) \sim \sqrt{2\pi} (x-1)^{x-\frac{1}{2}} e^{-(x-1)}
-$$<p>
-Taking logarithms,</p>
-$$
-\log \Gamma(x) \sim \log(\sqrt{2\pi}) + \left(x-\tfrac{1}{2}\right)\log(x-1) - (x-1)
-$$<p>Since \(\log(x-1) = \log x + o(1)\), it follows that
-</p>
+S = \sum_{n=1}^{2500}\frac{1}{\sqrt{4n-3}+\sqrt{4n-1}}
+$$<p>Rationalizing the denominator:</p>
 $$
 \begin{aligned}
-\log \Gamma(x) \sim x\log x - x. \\
- \implies \log G_1(x) \in \Theta(x^1\log x)
+& = \sum_{n=1}^{2500} \frac{1}{\sqrt{4n-3}+\sqrt{4n-1}}\cdot\frac{\sqrt{4n-3}-\sqrt{4n-1}}{\sqrt{4n-3}-\sqrt{4n-1}} \\ 
+&= \sum_{n=1}^{2500}\frac{\sqrt{4n-1}-\sqrt{4n-3}}{2} 
 \end{aligned}
-$$<p>
-<strong>Inductive Step: \(n-1\)</strong></p>
-<p>Assume as inductive hypothesis that \(\log G_{n-1}(x)\) has complexity \(\Theta(x^{n-1} \log x)\).<br>
-A level \(G_n\) can be written as a finite product of the previous level.
-</p>
-$$G_n\left(x+1\right)=\prod_{k=1}^{x-1} G_{n-1}(k)$$<p>Taking the logarithm allows us to convert the right into summations:
-</p>
+$$<p>It follows that:</p>
+$$
+\sum_{n=1}^{2500}\frac{\sqrt{4n-1}-\sqrt{4n-3}}{2}>\int_{1}^{2500}\frac{\sqrt{4n-1}-\sqrt{4n-3}}{2}dn
+$$<p>We will split the right side into indefinite integrals, for simplicity. Substituting \(u_1 = 4n-3\) and \(u_2 = 4n-1\):</p>
 $$
 \begin{aligned}
-           & \log\left(G_{n}\left(x+1\right)\right)=\sum_{k=1}^{x-1}\log\left(G_{n-1}(k)\right)
-       \end{aligned}
-$$<p>
-Substitute the summand with the inductive hypothesis and rewrite in terms of an integral:</p>
+& \int \frac{\sqrt{4n-1}-\sqrt{4n-3}}{2}dn \\
+& =\frac{1}{2}\left(\int \sqrt{4n-1}dn- \int \sqrt{4n-3}dn\right) \\
+& =\frac{1}{2}\left(\frac{1}{4}\int\sqrt{u_{1}}du_{1}-\frac{1}{4}\int\sqrt{u_{2}}du_{2}\right)
+\end{aligned}
+$$<p>Using the standard power rule, \(\int \sqrt{x} dx = \frac{2}{3} x^{\frac{3}{2}} + C\)</p>
 $$
 \begin{aligned}
-        \log\left(G_{n}\left(x+1\right)\right)& =\sum_{k=1}^{x-1}\log\left(G_{n-1}\left(k\right)\right) \\
-           & \sim\sum_{k=1}^{x-1}k^{n-1}\log k \\
-            & = \int_{1}^{x-1}\left(k^{n-1}\log k\right)dk+\text{o}\left(k^{n-1}\log k\right)\\
-       \end{aligned}
-$$<p>With Integration by Parts, the resulting integral can be written as:
-</p>
+& =\frac{1}{2}\left(\frac{1}{4}\left(\frac{2}{3}\left(4n-1\right)^{\frac{3}{2}}\right)-\frac{1}{4}\left(\frac{2}{3}\left(4n-3\right)^{\frac{3}{2}}\right)\right) \\
+& =\frac{1}{12}\left(\left(4n-1\right)^{\frac{3}{2}}-\left(4n-3\right)^{\frac{3}{2}}\right) \\
+\end{aligned}
+$$<p>Substituting the bounds \(1\) to \(2500\), the integral expression is roughly equal to \(24.647820496\), thus proving \(S>24\).</p>
 $$
-\begin{aligned}
-       & \left. \left[ \frac{k^{n}\left(n\log\left(k\right)-1\right)}{n^{2}} \right] \right|_{1}^{x-1} +       \text{o}\left(k^{n-1}\log k\right) \\
-        &=\frac{\left(x-1\right)^{n}\left(n\log\left(x-1\right)-1\right)}{n^{2}}-\frac{\left(n\log1-1\right)}{n^{2}} + \text{o}\left(k^{n-1}\log k\right) \\
-           &=\frac{\left(x-1\right)^{n}\left(n\log\left(x-1\right)-1\right)}{n^{2}}+\frac{1}{n^{2}} + \text{o}\left(k^{n-1}\log k\right) \\
-       \end{aligned}
-$$<p>
-Since the only remaining term is \(\text{o}\left(k^{n-1}\log k\right)\), which must grow slower than \(k^n\log k\), the complexity of \(G_n\) must be \(\Theta (x^n \log x)\) ◻</p>
-</div>
-
-<h1 class="relative group">Fractional Member Asymptotics
-    <div id="fractional-member-asymptotics" class="anchor"></div>
+\sum_{n=1}^{2500}\frac{\sqrt{4n-1}-\sqrt{4n-3}}{2}>24.647820496
+$$
+<h1 class="relative group">Solution 2: Direct Comparison
+    <div id="solution-2-direct-comparison" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#fractional-member-asymptotics" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#solution-2-direct-comparison" aria-label="Anchor">#</a>
     </span>
     
 </h1>
-<div class="theorem">
-<p><strong>Theorem 6</strong> (Leading Asymptotic of the Fractional Vignéras Multi-Gamma Functions). <em>The Log of the Fractional Vignéras \(\log G_\alpha(x)\) has complexity \(\Theta(x^\alpha \log x)\).</em></p>
-</div>
-<div class="proof">
-<p><em>Proof.</em> Under the Riemann–Liouville fractional integral, scaling \(t = xu\) gives</p>
-$$
-J^\alpha f(x) = x^\alpha \int_0^1 (1-u)^{\alpha-1} f(xu)\,du.
-$$<p>For \(f(x)=x^a\log x\), substitution yields
-</p>
-$$
-f(xu)=x^a u^a(\log x + \log u).
-$$<p>Thus
-</p>
-$$
-J^\alpha(x^a\log x) = x^{a+\alpha}\left(C_1 \log x + C_2\right),
-$$<p>where \(C_1,C_2\) depend only on \(\alpha,a\). The dominant growth scales with the exponent.
-</p>
-$$
-\Theta(x^{a+\alpha}\log x).
-$$<p>
- ◻</p>
-</div>
-
-<h1 class="relative group">Integral Form
-    <div id="integral-form" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#integral-form" aria-label="Anchor">#</a>
-    </span>
-    
-</h1>
-<div class="theorem">
-<p><strong>Theorem 7</strong> (Formula for the Fractional Vignéras Hierarchy Member). For \(\Re(z) > 0\):
-</p>
+<p>Take the previous setup, but instead notice that \(\frac{1}{\sqrt{4n-3} + \sqrt{4n-1}} > \frac{1}{\sqrt{4n-1} + \sqrt{4n-1}}\) in our domain.</p>
 $$
 \begin{aligned}
-\log G_a(z) &= \frac{\partial}{\partial s} \left. \frac{\Gamma(1-s)}{2\pi i} \oint_H \frac{e^{-zt}(-t)^{s-1}}{(1-e^{-t})^{a}} \, dt \right|_{s=0} - C_a \\
-\implies G_a(z) &= \exp\!\left( \frac{\partial}{\partial s} \left. \frac{\Gamma(1-s)}{2\pi i} \oint_H \frac{e^{-zt}(-t)^{s-1}}{(1-e^{-t})^{a}} \, dt \right|_{s=0} - C_a \right)
+S &= \sum_{n=1}^{2500}\frac{1}{\sqrt{4n-3}+\sqrt{4n-1}} > \sum_{n=1}^{2500}\frac{1}{\sqrt{4n-1}+\sqrt{4n-1}} \\
+ &\implies S > \sum_{n=1}^{2500}\frac{1}{2\sqrt{4n-1}} > \int_{1}^{2500} \frac{1}{2\sqrt{4n-1}} dn
 \end{aligned}
-$$</div>
-
-<h2 class="relative group">Reccurence Functional Equation
-    <div id="reccurence-functional-equation" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#reccurence-functional-equation" aria-label="Anchor">#</a>
-    </span>
-    
-</h2>
-<div class="proof">
-<p><em>Proof.</em> Apply a logarithm to both sides of the recurrence:
-</p>
+$$<p>Evaluating the right-side integral and letting \(u=4n-1\):</p>
 $$
 \begin{aligned}
-&G_n(z+1) = G_{n-1}(z)G_n(z) \\
-&\implies \log G_n(z+1) - \log G_n(z) = \log G_{n-1}(z)
+S &> \int_{1}^{2500} \frac{1}{2\sqrt{4n-1}} dn  \\ 
+  &> \int_{3}^{9999} \frac{1}{8\sqrt{u}} du \\
+  &> \frac{\sqrt{9999}}{4} - \frac{\sqrt{3}}{4} \\
+  &> 24.5657372669
 \end{aligned}
-$$<p>Take the integral representation of the left side:
-</p>
 $$
-\begin{aligned}
-&\log G_a(z+1) - \log G_a(z) \notag \\
-&= \left( \frac{\partial}{\partial s} \left. \frac{\Gamma(1-s)}{2\pi i} \oint_H \frac{e^{-(z+1)t}(-t)^{s-1}}{(1-e^{-t})^{a}} \, dt \right|_{s=0} - C_a \right) \notag \\
-&- \left( \frac{\partial}{\partial s} \left. \frac{\Gamma(1-s)}{2\pi i} \oint_H \frac{e^{-zt}(-t)^{s-1}}{(1-e^{-t})^{a}} \, dt \right|_{s=0} - C_a \right) \\
-&= \frac{\partial}{\partial s} \left. \frac{\Gamma(1-s)}{2\pi i} \oint_H \left( \frac{e^{-(z+1)t}(-t)^{s-1}}{(1-e^{-t})^{a}} - \frac{e^{-zt}(-t)^{s-1}}{(1-e^{-t})^{a}} \right) dt \right|_{s=0} \notag
-\end{aligned}
-$$<p>Factoring \(e^{(-z+1)t} - e^{-zt} = -e^{-zt} (1-e^{-t})\) and canceling that power from the demoninator yields:
-</p>
-$$
-\begin{aligned}
-& \frac{\partial}{\partial s} \left. \frac{\Gamma(1-s)}{2\pi i} \oint_H \frac{e^{-zt}(-t)^{s-1}}{(1-e^{-t})^{a-1}} \, dt \right|_{s=0} \\
-&= \log G_{a-1}(z)
-\end{aligned}
-$$<p>Which directly confirms \(\log G_n(z+1) - \log G_n(z) = \log G_{n-1}(z)\), thus guaranteeing the recurrence relationship \(G_n(z+1) = G_{n-1}(z)G_n(z)\). ◻</p>
-</div>
-
-<h1 class="relative group">References
-    <div id="references" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#references" aria-label="Anchor">#</a>
-    </span>
-    
-</h1>
-<p>Abramowitz, M., and I. A. Stegun. <em>Handbook of Mathematical Functions with Formulas, Graphs, and Mathematical Tables</em>. United States Department of Commerce, 1964.</p>
-<p>Nishizawa, M. &ldquo;Generalized Hölder’s Theorem for Vignéras’ Multiple Gamma Function.&rdquo; <em>Tokyo Journal of Mathematics</em>, vol. 24, no. 1, 2001, pp. 221-229. <a
-  href="https://scispace.com/pdf/generalized-holder-s-theorem-for-vigneras-multiple-gamma-51z4tnq0wp.pdf"
-    target="_blank"
-  >https://scispace.com/pdf/generalized-holder-s-theorem-for-vigneras-multiple-gamma-51z4tnq0wp.pdf</a></p>
-<p>Nishizawa, M. &ldquo;On a q-analogue of the multiple gamma functions.&rdquo; <em>arXiv preprint q-alg/9505013</em>, 1995. <a
-  href="https://arxiv.org/pdf/q-alg/9505013"
-    target="_blank"
-  >https://arxiv.org/pdf/q-alg/9505013</a></p>
-<p>Ono, K., and A. Singh. &ldquo;Remarks on MacMahon’s \(q\)-series.&rdquo; <em>Journal of Combinatorial Theory, Series A</em>, vol. 207, 2024, 105921. <a
-  href="https://doi.org/10.1016/j.jcta.2024.105921"
-    target="_blank"
-  >https://doi.org/10.1016/j.jcta.2024.105921</a></p>
-<p>Vignéras, M.-F. &ldquo;L’équation fonctionnelle de la fonction zêta de Selberg du groupe modulaire \(SL(2, \mathbb{Z})\).&rdquo; <em>Astérisque</em>, vol. 61, 1979, pp. 235-249. <a
-  href="https://www.numdam.org/article/AST_1979__61__235_0.pdf"
-    target="_blank"
-  >https://www.numdam.org/article/AST_1979__61__235_0.pdf</a></p>
-<p>Weisstein, Eric W. &ldquo;Barnes G-Function.&rdquo; From <em>MathWorld</em>–A Wolfram Web Resource. <a
-  href="https://mathworld.wolfram.com/BarnesG-Function.html"
-    target="_blank"
-  >https://mathworld.wolfram.com/BarnesG-Function.html</a></p>
-
           
           
           
@@ -1225,8 +1078,8 @@ $$<p>Which directly confirms \(\log G_n(z+1) - \log G_n(z) = \log G_{n-1}(z)\), 
           type="text/javascript"
           src="/js/page.min.54b6f4371722649edbe871e431d8670d670878c22be8f36e229fe53cc9b786fe25a834def5e6de621f7a3e37b72bc8cd73839aa5ed907ed6cbd45cd3e1b0fa20.js"
           integrity="sha512-VLb0NxciZJ7b6HHkMdhnDWcIeMIr6PNuIp/lPMm3hv4lqDTe9ebeYh96Pje3K8jNc4Oape2QftbL1FzT4bD6IA=="
-          data-oid="views_projects/fractionalvigneras/index.md"
-          data-oid-likes="likes_projects/fractionalvigneras/index.md"></script>
+          data-oid="views_projects/inverseradicalsums/index.md"
+          data-oid-likes="likes_projects/inverseradicalsums/index.md"></script>
       
     </section>
 
@@ -1244,32 +1097,19 @@ $$<p>Which directly confirms \(\log G_n(z+1) - \log G_n(z) = \log G_{n-1}(z)\), 
           
             <a
               class="flex text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-              href="/projects/hypergeometricmapping/">
+              href="/projects/fractionalvigneras/">
               <span class="leading-6">
-                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;Mapping Between Geometric, Hypergeometric, and Higher-Order Functions
+                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;Fractional Members of the Vigneras Multiple Gamma Hierarchy
               </span>
             </a>
             
               <span class="ms-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
-                <time datetime="2026-04-07T00:00:00&#43;00:00">7 April 2026</time>
+                <time datetime="2026-06-06T00:00:00&#43;00:00">6 June 2026</time>
               </span>
             
           
         </span>
         <span class="flex flex-col items-end">
-          
-            <a
-              class="flex text-right text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-              href="/projects/inverseradicalsums/">
-              <span class="leading-6">
-                Inverse Radical Sums&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
-              </span>
-            </a>
-            
-              <span class="me-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
-                <time datetime="2026-08-13T00:00:00&#43;00:00">13 August 2026</time>
-              </span>
-            
           
         </span>
       </div>
