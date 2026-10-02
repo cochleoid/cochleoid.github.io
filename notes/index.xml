@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes on Adrian Hernandez Vega</title>
+    <link>https://cochleoid.github.io/notes/</link>
+    <description>Recent content in Notes on Adrian Hernandez Vega</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Adrian</copyright>
+    <lastBuildDate>Fri, 11 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Basic Exponential Functions</title>
+      <link>https://cochleoid.github.io/notes/basicexponentials/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/notes/basicexponentials/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Absolute Value Equations</title>
+      <link>https://cochleoid.github.io/notes/absolutevalue/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/notes/absolutevalue/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Introduction to the Asymptotes of a Rational Function</title>
+      <link>https://cochleoid.github.io/notes/rationalasymptotes/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/notes/rationalasymptotes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Logarithmic Differentiation with Some Examples</title>
+      <link>https://cochleoid.github.io/notes/logdiff/</link>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/notes/logdiff/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Basic Differentiation Rules</title>
+      <link>https://cochleoid.github.io/notes/derivativerules/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/notes/derivativerules/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Finding Elementary Inverse Functions</title>
+      <link>https://cochleoid.github.io/notes/introinverses/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/notes/introinverses/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Some Algebraic Factorizations</title>
+      <link>https://cochleoid.github.io/notes/algebraicfactor/</link>
+      <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/notes/algebraicfactor/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Circles</title>
+      <link>https://cochleoid.github.io/notes/introcircles/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/notes/introcircles/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Quadratics</title>
+      <link>https://cochleoid.github.io/notes/quadratics/</link>
+      <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/notes/quadratics/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

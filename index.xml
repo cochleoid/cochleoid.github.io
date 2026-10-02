@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adrian Hernandez Vega</title>
+    <link>https://cochleoid.github.io/</link>
+    <description>Recent content on Adrian Hernandez Vega</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Adrian</copyright>
+    <lastBuildDate>Mon, 31 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Proof: Contour Integral for a General Quadratic</title>
+      <link>https://cochleoid.github.io/work/quadraticcontour/</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/work/quadraticcontour/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Inverse Radical Sums</title>
+      <link>https://cochleoid.github.io/work/inverseradicalsums/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/work/inverseradicalsums/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Adrian&#39;s Guide to CLEP Exams</title>
+      <link>https://cochleoid.github.io/guides/clep-guide/</link>
+      <pubDate>Thu, 23 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/guides/clep-guide/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mapping Between Geometric, Hypergeometric, and Higher-Order Functions</title>
+      <link>https://cochleoid.github.io/work/hypergeometricmapping/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/work/hypergeometricmapping/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>List of Sophomore Chemistry Resources</title>
+      <link>https://cochleoid.github.io/guides/sophomore-chem-resources/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/guides/sophomore-chem-resources/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>NSE Medal Calculator</title>
+      <link>https://cochleoid.github.io/guides/nse-score-calculator/</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/guides/nse-score-calculator/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A Tutorial on Importing StudyMate to Knowt</title>
+      <link>https://cochleoid.github.io/guides/studymate-to-knowt/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/guides/studymate-to-knowt/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Problems and Solutions for Local Mu Alpha Theta 2023-2026</title>
+      <link>https://cochleoid.github.io/problems/pastmaosolutions/</link>
+      <pubDate>Sun, 08 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/problems/pastmaosolutions/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Closed Cartesian Form for Polygon Envelopes</title>
+      <link>https://cochleoid.github.io/work/rootsofunityenvelopes/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/work/rootsofunityenvelopes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Proving Gauss&#39;s Formula with the Shoelace Formula</title>
+      <link>https://cochleoid.github.io/problems/shoelacegauss/</link>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/problems/shoelacegauss/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Solving a Matrix Containing Legendre Floors</title>
+      <link>https://cochleoid.github.io/problems/matrixfloors/</link>
+      <pubDate>Tue, 24 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/problems/matrixfloors/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>No Kernel? No Problem! A Rescue Mission Told in CLI</title>
+      <link>https://cochleoid.github.io/guides/missing-kernel/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/guides/missing-kernel/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Transferability of Dual Enrollment Courses</title>
+      <link>https://cochleoid.github.io/guides/dual-transfer/</link>
+      <pubDate>Sun, 02 Nov 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/guides/dual-transfer/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Screenshotting in DWM with Scrot (and OCR with Tesseract)</title>
+      <link>https://cochleoid.github.io/guides/dwm-scrot/</link>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/guides/dwm-scrot/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tangent Substitution in Integration</title>
+      <link>https://cochleoid.github.io/problems/tansubstitution/</link>
+      <pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/problems/tansubstitution/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Deriving Curved Surface Area Sections Over a Sphere</title>
+      <link>https://cochleoid.github.io/work/sphericalsections/</link>
+      <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/work/sphericalsections/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Representing Polygons through the Roots of Unity</title>
+      <link>https://cochleoid.github.io/work/rootspolygons/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/work/rootspolygons/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Basic Exponential Functions</title>
+      <link>https://cochleoid.github.io/notes/basicexponentials/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/notes/basicexponentials/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Divisor Arithmetic</title>
+      <link>https://cochleoid.github.io/problems/divisorarithmetic/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/problems/divisorarithmetic/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Vectors, Magnitudes and Dot Products</title>
+      <link>https://cochleoid.github.io/problems/vectormagnitudes/</link>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/problems/vectormagnitudes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Deriving Projectile Formulas with Calculus</title>
+      <link>https://cochleoid.github.io/problems/projectilecalculus/</link>
+      <pubDate>Sat, 21 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/problems/projectilecalculus/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Vector Summation with Gauss&#39;s Formula</title>
+      <link>https://cochleoid.github.io/problems/gaussvector/</link>
+      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/problems/gaussvector/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Adrian&#39;s Step by Step Guide on PCPS Dual Enrollment</title>
+      <link>https://cochleoid.github.io/guides/dual-guide/</link>
+      <pubDate>Wed, 02 Apr 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/guides/dual-guide/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The Three Main Methods for Triangle Area</title>
+      <link>https://cochleoid.github.io/problems/threetriangles/</link>
+      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/problems/threetriangles/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Expected Value with Tables, Binomials, and Areas</title>
+      <link>https://cochleoid.github.io/problems/expectedvalue/</link>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/problems/expectedvalue/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Absolute Value Equations</title>
+      <link>https://cochleoid.github.io/notes/absolutevalue/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/notes/absolutevalue/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Introduction to the Asymptotes of a Rational Function</title>
+      <link>https://cochleoid.github.io/notes/rationalasymptotes/</link>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/notes/rationalasymptotes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Logarithmic Differentiation with Some Examples</title>
+      <link>https://cochleoid.github.io/notes/logdiff/</link>
+      <pubDate>Fri, 12 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/notes/logdiff/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Basic Differentiation Rules</title>
+      <link>https://cochleoid.github.io/notes/derivativerules/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/notes/derivativerules/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Finding Elementary Inverse Functions</title>
+      <link>https://cochleoid.github.io/notes/introinverses/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/notes/introinverses/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Some Algebraic Factorizations</title>
+      <link>https://cochleoid.github.io/notes/algebraicfactor/</link>
+      <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/notes/algebraicfactor/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Circles</title>
+      <link>https://cochleoid.github.io/notes/introcircles/</link>
+      <pubDate>Sat, 22 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/notes/introcircles/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Quadratics</title>
+      <link>https://cochleoid.github.io/notes/quadratics/</link>
+      <pubDate>Sun, 11 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/notes/quadratics/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A Triangle&#39;s Orthocenter Given Its Coordinates</title>
+      <link>https://cochleoid.github.io/work/orthocenterformula/</link>
+      <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/work/orthocenterformula/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Five Proofs of Gauss&#39;s Formula for Summing Integers</title>
+      <link>https://cochleoid.github.io/problems/gaussproofs/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/problems/gaussproofs/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Cramer&#39;s Rule in R2</title>
+      <link>https://cochleoid.github.io/work/cramersrule/</link>
+      <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/work/cramersrule/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>My First Science Fair: Acidity and Temperature</title>
+      <link>https://cochleoid.github.io/work/firstfair/</link>
+      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/work/firstfair/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Redirecting...</title>
+      <link>https://cochleoid.github.io/link/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/link/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Work on Adrian Hernandez Vega</title>
+    <link>https://cochleoid.github.io/work/</link>
+    <description>Recent content in Work on Adrian Hernandez Vega</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2026 Adrian</copyright>
+    <lastBuildDate>Mon, 31 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cochleoid.github.io/work/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Proof: Contour Integral for a General Quadratic</title>
+      <link>https://cochleoid.github.io/work/quadraticcontour/</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/work/quadraticcontour/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Inverse Radical Sums</title>
+      <link>https://cochleoid.github.io/work/inverseradicalsums/</link>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/work/inverseradicalsums/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mapping Between Geometric, Hypergeometric, and Higher-Order Functions</title>
+      <link>https://cochleoid.github.io/work/hypergeometricmapping/</link>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/work/hypergeometricmapping/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Closed Cartesian Form for Polygon Envelopes</title>
+      <link>https://cochleoid.github.io/work/rootsofunityenvelopes/</link>
+      <pubDate>Wed, 04 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/work/rootsofunityenvelopes/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Deriving Curved Surface Area Sections Over a Sphere</title>
+      <link>https://cochleoid.github.io/work/sphericalsections/</link>
+      <pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/work/sphericalsections/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Representing Polygons through the Roots of Unity</title>
+      <link>https://cochleoid.github.io/work/rootspolygons/</link>
+      <pubDate>Sat, 12 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/work/rootspolygons/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>A Triangle&#39;s Orthocenter Given Its Coordinates</title>
+      <link>https://cochleoid.github.io/work/orthocenterformula/</link>
+      <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/work/orthocenterformula/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Cramer&#39;s Rule in R2</title>
+      <link>https://cochleoid.github.io/work/cramersrule/</link>
+      <pubDate>Thu, 23 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/work/cramersrule/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>My First Science Fair: Acidity and Temperature</title>
+      <link>https://cochleoid.github.io/work/firstfair/</link>
+      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://cochleoid.github.io/work/firstfair/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>
