@@ -4,7 +4,19 @@
 
   <url>
     <loc>https://cochleoid.github.io/</loc>
-    <lastmod>2026-08-31T00:00:00+00:00</lastmod>
+    <lastmod>2026-10-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cochleoid.github.io/problems/cauchygoursatsum/</loc>
+    <lastmod>2026-10-06T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://cochleoid.github.io/problems/</loc>
+    <lastmod>2026-10-06T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -59,12 +71,6 @@
   <url>
     <loc>https://cochleoid.github.io/guides/studymate-to-knowt/</loc>
     <lastmod>2026-03-26T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://cochleoid.github.io/problems/</loc>
-    <lastmod>2026-03-08T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
