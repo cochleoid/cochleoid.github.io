@@ -4,7 +4,7 @@
   dir="ltr"
   class="scroll-smooth"
   data-default-appearance="light"
-  data-auto-appearance="true"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  data-auto-appearance="true"><head>
   <meta charset="utf-8">
   
     <meta http-equiv="content-language" content="en">
@@ -15,8 +15,8 @@
 
   
   
-    <title>Divisor Arithmetic &middot; Adrian Hernandez Vega</title>
-    <meta name="title" content="Divisor Arithmetic &middot; Adrian Hernandez Vega">
+    <title>Vectors, Magnitudes and Dot Products &middot; Adrian Hernandez Vega</title>
+    <meta name="title" content="Vectors, Magnitudes and Dot Products &middot; Adrian Hernandez Vega">
   
 
   
@@ -31,14 +31,14 @@
     
   
   
-    <meta name="description" content="A quick primer on divisor functions and how to work with them.">
+    <meta name="description" content="A tutorial covering vector magnitudes, dot products, and rotations.">
   
   
-    <meta name="keywords" content="math,number theory,">
+    <meta name="keywords" content="math,vectors,algebra,">
   
   
   
-  <link rel="canonical" href="http://localhost:1313/problems/divisorarithmetic/">
+  <link rel="canonical" href="https://cochleoid.github.io/notes/vectormagnitudes/">
   
   
 
@@ -75,22 +75,23 @@
   
 
   
-  <meta property="og:url" content="http://localhost:1313/problems/divisorarithmetic/">
+  <meta property="og:url" content="https://cochleoid.github.io/notes/vectormagnitudes/">
 	<meta property="og:site_name" content="Adrian Hernandez Vega">
-	<meta property="og:title" content="Divisor Arithmetic">
-	<meta property="og:description" content="A quick primer on divisor functions and how to work with them.">
+	<meta property="og:title" content="Vectors, Magnitudes and Dot Products">
+	<meta property="og:description" content="A tutorial covering vector magnitudes, dot products, and rotations.">
 	<meta property="og:locale" content="en">
 	<meta property="og:type" content="article">
-		<meta property="article:section" content="problems">
+		<meta property="article:section" content="notes">
 		<meta property="article:published_time" content="2025-07-11T00:00:00+00:00">
 		<meta property="article:modified_time" content="2025-07-11T00:00:00+00:00">
 		<meta property="article:tag" content="Math">
-		<meta property="article:tag" content="Number Theory">
+		<meta property="article:tag" content="Vectors">
+		<meta property="article:tag" content="Algebra">
 
   
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="Divisor Arithmetic">
-	<meta name="twitter:description" content="A quick primer on divisor functions and how to work with them.">
+	<meta name="twitter:title" content="Vectors, Magnitudes and Dot Products">
+	<meta name="twitter:description" content="A tutorial covering vector magnitudes, dot products, and rotations.">
 
   
   
@@ -386,12 +387,12 @@
   [{
     "@context": "https://schema.org",
     "@type": "Article",
-    "articleSection": "Problems",
-    "name": "Divisor Arithmetic",
-    "headline": "Divisor Arithmetic",
-    "description": "A quick primer on divisor functions and how to work with them.",
+    "articleSection": "Notes",
+    "name": "Vectors, Magnitudes and Dot Products",
+    "headline": "Vectors, Magnitudes and Dot Products",
+    "description": "A tutorial covering vector magnitudes, dot products, and rotations.",
     "inLanguage": "en",
-    "url" : "http://localhost:1313/problems/divisorarithmetic/",
+    "url" : "https://cochleoid.github.io/notes/vectormagnitudes/",
     "author" : {
       "@type": "Person",
       "name": "Adrian",
@@ -403,16 +404,22 @@
     
     "dateModified": "2025-07-11T00:00:00\u002b00:00",
     
-    "keywords": ["math","number theory"],
+    "keywords": ["math","vectors","algebra"],
     
-    "mainEntityOfPage": "http://localhost:1313/problems/divisorarithmetic/",
-    "wordCount": "456"
+    "mainEntityOfPage": "https://cochleoid.github.io/notes/vectormagnitudes/",
+    "wordCount": "718"
   }]
   </script>
 
 
 
   
+  
+    
+
+
+
+
   
 
   
@@ -746,7 +753,7 @@
     <header id="single_header" class="mt-5 max-w-prose">
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        Divisor Arithmetic
+        Vectors, Magnitudes and Dot Products
       </h1>
       <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -798,7 +805,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-07-11T00:00:00&#43;00:00">11 July 2025</time><span class="px-2 text-primary-500">&middot;</span><span>456 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+      <time datetime="2025-07-11T00:00:00&#43;00:00">11 July 2025</time><span class="px-2 text-primary-500">&middot;</span><span>718 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
     
 
     
@@ -972,87 +979,49 @@
           
 
 
-<h1 class="relative group">Divisor Arithmetic
-    <div id="divisor-arithmetic" class="anchor"></div>
+<h1 class="relative group">Vectors
+    <div id="vectors" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#divisor-arithmetic" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#vectors" aria-label="Anchor">#</a>
     </span>
     
 </h1>
 
-<h2 class="relative group">Number of Divisors
-    <div id="number-of-divisors" class="anchor"></div>
+<h2 class="relative group">Magnitude
+    <div id="magnitude" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#number-of-divisors" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#magnitude" aria-label="Anchor">#</a>
     </span>
     
 </h2>
-<p>The divisor function, \( d(n) \), tells you the number of divisors \( n \) has. When \( n \) is written in prime factorization as \( 3^2 \cdot 5^1 \cdot 2^1 \), for example, \( d(n) = (2+1)(1+1)(1+1) = 12 \).</p>
+<p>The magnitude of a vector is denoted by double bars, like \( ||\vec{a}|| \). It represents the length of the vector, which can be found using the Pythagorean theorem.</p>
+<p>For example, the magnitude of the vector \( [3, 4] \) is \( \sqrt{3^2 + 4^2} = 5 \).</p>
+<p><strong>Exercise 1:</strong> What is the magnitude of vector \( [5, 12] \)?<br>
+<strong>Exercise 2:</strong> What is the product of \( ||\vec{a}|| \) and \( ||\vec{b}|| \) if \( a = [1, 2] \) and \( b = [2, 3] \)?</p>
 
-<h2 class="relative group">Sum of Divisors
-    <div id="sum-of-divisors" class="anchor"></div>
+<h2 class="relative group">The Dot Product
+    <div id="the-dot-product" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#sum-of-divisors" aria-label="Anchor">#</a>
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-dot-product" aria-label="Anchor">#</a>
     </span>
     
 </h2>
-<p>The sigma function, \( \sigma(n) \), gives the sum of the divisors of \( n \). When \( n = 7^3 \cdot 2^2 \cdot 3^1 \), then<br>
-\( \sigma(n) = (7^0 + 7^1 + 7^2 + 7^3)(2^0 + 2^1 + 2^2)(3^0 + 3^1) \).</p>
+<p>The dot product of two vectors is the sum of the products of corresponding components. For example, for vectors \( [1, 2, 3] \) and \( [4, 5, 6] \), the dot product is<br>
+\( (1 \cdot 4) + (2 \cdot 5) + (3 \cdot 6) = 32 \),<br>
+which can be written as \( [1, 2, 3] \cdot [4, 5, 6] = 32 \).</p>
+<ul>
+<li>If the dot product is zero, the vectors are perpendicular.</li>
+<li>If it&rsquo;s positive, the angle between them is acute.</li>
+<li>If it&rsquo;s negative, the angle is obtuse.</li>
+</ul>
 
-<h2 class="relative group">Product of Divisors
-    <div id="product-of-divisors" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#product-of-divisors" aria-label="Anchor">#</a>
-    </span>
-    
-</h2>
-<p>The uppercase pi function, \( \Pi(n) \), gives the product of the divisors of \( n \). The formula is:<br>
-\( \Pi(n) = n^{\frac{d(n)}{2}} \)</p>
-
-<h2 class="relative group">Even and Odd Divisors
-    <div id="even-and-odd-divisors" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#even-and-odd-divisors" aria-label="Anchor">#</a>
-    </span>
-    
-</h2>
-<p>The functions above can be modified with \( o \) and \( e \) subscripts, representing odd and even divisors.<br>
-For example, \( d_e(56) \) counts how many even divisors 56 has, and \( \Pi_o(81) \) multiplies all of 81’s odd divisors.</p>
-<p>To find the number of odd divisors, consider only the odd prime factorization.<br>
-For instance, since \( 36 = 3^2 \cdot 2^2 \), we find \( d_o(36) = 2 + 1 = 3 \).<br>
-Then, \( d_e(36) = d(36) - d_o(36) = 9 - 3 = 6 \).</p>
-
-<h2 class="relative group">Examples
-    <div id="examples" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
-        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#examples" aria-label="Anchor">#</a>
-    </span>
-    
-</h2>
-<p><strong>Example 1:</strong> <em>How many positive integers are divisors of \( 21^{75} \)?</em><br>
-(Source: MATHCOUNTS 1997 State Round)<br>
-To solve this, break down \( 21^{75} \) into \( (7 \cdot 3)^{75} = 7^{75} \cdot 3^{75} \).<br>
-Then, \( d(21^{75}) = (75+1)(75+1) = 76 \cdot 76 = 5776 \).</p>
-<p><strong>Example 2:</strong> <em>Karlanna places 600 marbles into \( m \) total boxes such that each box contains an equal number of marbles. There is more than one box, and each box contains more than one marble. For how many values of \( m \) can this be done?</em><br>
-(Source: Crawford&rsquo;s <em>Introduction to Number Theory</em>)<br>
-This is asking for \( d(600) - 2 \), because we exclude \( m = 1 \) and \( m = 600 \).<br>
-Since \( 600 = 2^3 \cdot 3 \cdot 5^2 \), then \( d(600) = (3+1)(1+1)(2+1) = 4 \cdot 2 \cdot 3 = 24 \).<br>
-Thus, the answer is \( 24 - 2 = 22 \).</p>
-<p><strong>Example 3:</strong> <em>What is the value of \( d_o(432) \cdot d_e(432) \)?</em></p>
-
-<h2 class="relative group">Exercises
+<h3 class="relative group">Exercises
     <div id="exercises" class="anchor"></div>
     
     <span
@@ -1060,14 +1029,123 @@ Thus, the answer is \( 24 - 2 = 22 \).</p>
         <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#exercises" aria-label="Anchor">#</a>
     </span>
     
+</h3>
+<p><strong>Exercise 3:</strong> What is the value of \( [1, 2] \cdot [3, 4] \)?<br>
+<strong>Exercise 4:</strong> Do the vectors \( [7, 8] \) and \( [9, 10] \) form an acute, right, or obtuse angle?</p>
+
+<h2 class="relative group">The Dot Product Equation
+    <div id="the-dot-product-equation" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#the-dot-product-equation" aria-label="Anchor">#</a>
+    </span>
+    
 </h2>
-<p><strong>Exercise 1:</strong> \( d(7^2) \)<br>
-<strong>Exercise 2:</strong> \( d(49^2) \)<br>
-<strong>Exercise 3:</strong> \( d(36 + d(36)) \)<br>
-<strong>Exercise 4:</strong> \( \sigma(d(18)) \)<br>
-<strong>Exercise 5:</strong> \( \Pi(d(66)) \)<br>
-<strong>Exercise 6:</strong> \( d_o(7) \)<br>
-<strong>Exercise 7:</strong> \( d(4327904790) \cdot d_e(3) \)</p>
+<p>The dot product formula can also be expressed as:<br>
+</p>
+\[ D = M \cos(\theta) \]<p><br>
+where:</p>
+<ul>
+<li>\( D \) is the dot product,</li>
+<li>\( M \) is the product of the magnitudes, and</li>
+<li>\( \theta \) is the angle between the vectors.</li>
+</ul>
+
+<h3 class="relative group">Example: Finding the Angle Between Two Vectors
+    <div id="example-finding-the-angle-between-two-vectors" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#example-finding-the-angle-between-two-vectors" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>Find the angle between \( [1, 2] \) and \( [3, 4] \):</p>
+\[
+\begin{aligned}
+D &= M \cos(\theta) \\
+(1 \cdot 3) + (2 \cdot 4) &= ||[1,2]|| \cdot ||[3,4]|| \cdot \cos(\theta) \\
+11 &= 5\sqrt{5} \cdot \cos(\theta) \\
+\frac{11}{5\sqrt{5}} &= \cos(\theta) \\
+\arccos\left(\frac{11}{5\sqrt{5}}\right) &= \theta \\
+\theta &\approx 79.6^\circ
+\end{aligned}
+\]
+<h3 class="relative group">Example: Solving for a Missing Component
+    <div id="example-solving-for-a-missing-component" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#example-solving-for-a-missing-component" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>Let vectors \( [1, A] \) and \( [3, 4] \) have a dot product of 10 and form a \( 45^\circ \) angle. What is the value of \( A \)?</p>
+\[
+\begin{aligned}
+D &= M \cos(\theta) \\
+10 &= 5 \cdot \sqrt{1^2 + A^2} \cdot \cos(45^\circ) \\
+10 &= 5 \cdot \sqrt{1 + A^2} \cdot \frac{\sqrt{2}}{2} \\
+2 &= \sqrt{1 + A^2} \cdot \frac{\sqrt{2}}{2} \\
+4 &= \sqrt{1 + A^2} \cdot \sqrt{2} \\
+\frac{4}{\sqrt{2}} &= \sqrt{1 + A^2} \\
+8 &= 1 + A^2 \\
+A^2 &= 7 \\
+A &= \pm \sqrt{7}
+\end{aligned}
+\]
+<h3 class="relative group">Example: Vector Rotation
+    <div id="example-vector-rotation" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#example-vector-rotation" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>Let \( \vec{p} = [1, 2] \) and suppose it&rsquo;s rotated counterclockwise by \( 56^\circ \), resulting in a new vector \( \vec{r} = [A, B] \) such that the dot product is 30. What is the new vector?</p>
+\[
+\begin{aligned}
+D &= M \cos(\theta) \\
+30 &= \sqrt{5} \cdot \sqrt{A^2 + B^2} \cdot \cos(56^\circ) \\
+30 &= \sqrt{5A^2 + 5B^2} \cdot \cos(56^\circ) \\
+\frac{30}{\cos(56^\circ)} &= \sqrt{5A^2 + 5B^2} \\
+\frac{900}{\cos^2(56^\circ)} &= 5A^2 + 5B^2
+\end{aligned}
+\]<p>Also, we know that:</p>
+\[
+A + 2B = 30
+\]<p>This creates the system:</p>
+\[
+\left\{
+\begin{aligned}
+5A^2 + 5B^2 &= \frac{900}{\cos^2(56^\circ)} \\
+A + 2B &= 30
+\end{aligned}
+\right.
+\]<p>Solving this system yields the approximate solutions:</p>
+<ul>
+<li>\( [-11.79, 20.90] \)</li>
+<li>\( [23.80, 3.10] \)</li>
+</ul>
+<p>Only the first is a counterclockwise rotation, so the final answer is approximately<br>
+<strong>\( \vec{r} \approx [-11.79, 20.90] \)</strong></p>
+
+<h2 class="relative group">Exercises
+    <div id="exercises-1" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#exercises-1" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p><strong>Exercise 5:</strong> What is the angle between the vectors \( [7, 8] \) and \( [2, 9] \)?<br>
+<strong>Exercise 6:</strong> What is the angle between the vectors \( [4, 2] \) and \( [8, 4] \)? Why does this operation lead to an error?<br>
+<strong>Exercise 7:</strong> What is the angle between the vectors \( [4, 2] \) and \( [2x, x] \)?<br>
+<strong>Exercise 8:</strong> Let \( \vec{a} = [3, 5] \), and let \( \vec{b} \) be the result when \( \vec{a} \) is rotated 30 degrees. What is the <strong>sum</strong> of the components of \( \vec{b} \)? Round to the nearest tenth.<br>
+<strong>Exercise 9:</strong> What is the angle between the lines \( 5x + 4y = 9 \) and \( 8x + 3y = 5 \)?</p>
 
 <h2 class="relative group">Credits
     <div id="credits" class="anchor"></div>
@@ -1078,12 +1156,7 @@ Thus, the answer is \( 24 - 2 = 22 \).</p>
     </span>
     
 </h2>
-<p>All explanations and problems written by <strong>Adrian Hernandez Vega</strong>, unless otherwise noted.</p>
-<p>Prefer video? Watch the full explanation here:
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-			<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/cBJ_MDgM6dg?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
-		</div>
-</p>
+<p>Explanations and problems by Adrian Hernandez Vega.</p>
 
           
           
@@ -1113,14 +1186,14 @@ Thus, the answer is \( 24 - 2 = 22 \).</p>
           
             <a
               class="flex text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-              href="/problems/vectormagnitudes/">
+              href="/notes/absolutevalue/">
               <span class="leading-6">
-                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;Vectors, Magnitudes and Dot Products
+                <span class="inline-block rtl:rotate-180">&larr;</span>&ensp;Absolute Value Equations
               </span>
             </a>
             
               <span class="ms-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
-                <time datetime="2025-07-11T00:00:00&#43;00:00">11 July 2025</time>
+                <time datetime="2024-05-21T00:00:00&#43;00:00">21 May 2024</time>
               </span>
             
           
@@ -1129,14 +1202,14 @@ Thus, the answer is \( 24 - 2 = 22 \).</p>
           
             <a
               class="flex text-right text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
-              href="/problems/tansubstitution/">
+              href="/notes/divisorarithmetic/">
               <span class="leading-6">
-                Tangent Substitution in Integration&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
+                Divisor Arithmetic&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
               </span>
             </a>
             
               <span class="me-6 mt-1 text-xs text-neutral-500 dark:text-neutral-400">
-                <time datetime="2025-08-30T00:00:00&#43;00:00">30 August 2025</time>
+                <time datetime="2025-07-11T00:00:00&#43;00:00">11 July 2025</time>
               </span>
             
           
